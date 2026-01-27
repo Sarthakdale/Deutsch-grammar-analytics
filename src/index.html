@@ -23,21 +23,43 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="stats-bar">
-            <span>Score: <b id="score">0</b></span>
-            <span>Streak: <b id="streak">0</b></span>
-        </div>
-
-        <h2 id="question-text">Loading Question...</h2>
+    <body>
+    <div class="app-layout">
         
-        <div class="options" id="options-container">
-            </div>
+        <aside class="sidebar">
+            <h1 class="logo">🇩🇪 GermanPro</h1>
+            <nav>
+                <button class="nav-item active" onclick="switchMode('grammar')">
+                    <span class="icon">⚡</span> Grammar (Der/Die/Das)
+                </button>
+                <button class="nav-item" onclick="switchMode('vocabulary')">
+                    <span class="icon">📚</span> Vocabulary (A2 Words)
+                </button>
+            </nav>
+        </aside>
 
-        <div id="feedback" class="feedback"></div>
-        <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+        <main class="content-area">
+            <div class="container">
+                <div class="stats-bar">
+                    <span id="mode-title">GRAMMAR MODE</span>
+                    <div>
+                        <span>Score: <b id="score">0</b></span>
+                        <span>Streak: <b id="streak">0</b></span>
+                    </div>
+                </div>
+
+                <h2 id="question-text">Loading...</h2>
+                
+                <div class="options" id="options-container">
+                    </div>
+
+                <div id="feedback" class="feedback"></div>
+                <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next Question</button>
+            </div>
+        </main>
     </div>
 
-    <script src="logic.js"></script> 
+    <script src="logic.js"></script>
+</body>
 </body>
 </html>

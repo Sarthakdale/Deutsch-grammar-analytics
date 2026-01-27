@@ -163,3 +163,76 @@ button:disabled {
     from { opacity: 0; transform: translateY(5px); }
     to { opacity: 1; transform: translateY(0); }
 }
+/* --- NEW DASHBOARD LAYOUT --- */
+
+/* 1. The Wrapper */
+.app-layout {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* 2. The Sidebar (Left) */
+.sidebar {
+    width: 260px;
+    background: #0f172a; /* Darkest Slate */
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+/* Sidebar Buttons */
+.nav-item {
+    background: transparent;
+    color: var(--text-muted);
+    border: none;
+    text-align: left;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.nav-item:hover {
+    background: rgba(255,255,255,0.05);
+    color: white;
+    transform: none; /* Disable the bounce effect for sidebar */
+}
+
+.nav-item.active {
+    background: linear-gradient(90deg, rgba(56, 189, 248, 0.1), transparent);
+    color: var(--accent);
+    border-left: 3px solid var(--accent);
+}
+
+/* 3. The Main Area (Right) */
+.content-area {
+    flex: 1;
+    background: radial-gradient(#1e293b 1px, #0f172a 1px);
+    background-size: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Adjust Container to fit new layout */
+.container {
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
