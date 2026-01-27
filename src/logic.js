@@ -1,12 +1,4 @@
-// --- GLOBAL VARIABLES ---
-let currentQuestionIndex = 0;
-let score = 0;
-let streak = 0;
-let questions = [];
-
-// --- 1. SETUP: Load Data ---
-async function loadQuestions() {
-    // --- STATE MANAGEMENT ---
+// --- STATE MANAGEMENT ---
 let fullData = {
     grammar: [],
     vocabulary: []
@@ -21,11 +13,15 @@ let streak = 0;
 async function loadQuestions() {
     console.log("Loading modules...");
     try {
-        // Fetch both files at the same time (Parallel Fetching)
+        // Fetch both files at the same time
         const [grammarRes, vocabRes] = await Promise.all([
             fetch('data/grammar.json'),
             fetch('data/vocabulary.json')
         ]);
+
+        if (!grammarRes.ok || !vocabRes.ok) {
+            throw new Error("One or more files failed to load.");
+        }
 
         // Save them into our specific slots
         fullData.grammar = await grammarRes.json();
@@ -37,85 +33,84 @@ async function loadQuestions() {
         switchMode('grammar'); 
     } catch (error) {
         console.error("Error loading data:", error);
-        document.getElementById("question-text").innerText = "Error loading files.";
+        document.getElementById("question-text").innerText = "Error: Check Console (F12). Missing files?";
     }
 }
+
+// --- 2. SWITCH MODES ---
+function switchMode(mode) {
+    currentMode = mode;
+    currentQuestions = fullData[mode]; 
+    currentIndex = 0; // Reset progress
+    
+    // Update Sidebar UI
+    document.querySelectorAll('.nav-item').forEach(btn => {
+        btn.classList.remove('active');
+        // Simple check to highlight the right button
+        if(btn.getAttribute('onclick').includes(mode)) {
+            btn.classList.add('active');
+        }
+    });
+
+    // Update Header
+    document.getElementById('mode-title').innerText = mode.toUpperCase() + " MODE";
+    
+    // Start the Quiz
+    renderQuestion();
 }
 
-// --- 2. UI: Show the Question ---
+// --- 3. RENDER UI ---
 function renderQuestion() {
-    console.log("Step 3: Rendering Question Index:", currentQuestionIndex);
-
-    // Check if quiz is finished
-    if (currentQuestionIndex >= questions.length) {
-        console.log("Quiz Finished!");
+    // Check if finished
+    if (currentIndex >= currentQuestions.length) {
         showSummary();
         return;
     }
 
-    const questionData = questions[currentQuestionIndex];
+    const q = currentQuestions[currentIndex];
     
-    // Update Text
-    document.getElementById("question-text").innerText = questionData.question;
-    
-    // Reset UI
+    document.getElementById("question-text").innerText = q.question;
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-btn").style.display = "none";
     
-    // Build Buttons
-    const optionsContainer = document.getElementById("options-container");
-    optionsContainer.innerHTML = ""; // Clear old buttons
+    // Create Buttons
+    const container = document.getElementById("options-container");
+    container.innerHTML = "";
 
-    questionData.options.forEach(option => {
+    q.options.forEach(opt => {
         const btn = document.createElement("button");
-        btn.innerText = option;
-        btn.onclick = () => checkAnswer(option, questionData.answer, questionData.explanation);
-        optionsContainer.appendChild(btn);
+        btn.innerText = opt;
+        btn.onclick = () => checkAnswer(opt, q.answer, q.explanation);
+        container.appendChild(btn);
     });
 }
 
-// --- 3. LOGIC: Check Answer ---
+// --- 4. CHECK ANSWER ---
 function checkAnswer(selected, correct, explanation) {
-    console.log("Step 4: Answer checked. User picked:", selected);
-    
-    const feedbackEl = document.getElementById("feedback");
-    
-    // Lock buttons
+    const feedback = document.getElementById("feedback");
     const buttons = document.querySelectorAll("#options-container button");
-    buttons.forEach(btn => btn.disabled = true);
+    buttons.forEach(b => b.disabled = true);
 
     if (selected === correct) {
-        console.log("Result: Correct! Waiting 1.5 seconds...");
-        // Success
-        feedbackEl.className = "feedback success";
-        feedbackEl.innerText = "Richtig! (Correct)";
+        feedback.className = "feedback success";
+        feedback.innerText = "Correct!";
         score += 10;
-        streak += 1;
-        updateStats();
-        feedbackEl.style.display = "block";
-
-        // AUTO-ADVANCE TIMER
-        setTimeout(() => {
-            console.log("Timer finished. Calling nextQuestion()...");
-            nextQuestion();
-        }, 1500); // 1.5 seconds delay
-
+        streak++;
+        setTimeout(nextQuestion, 1000); // Auto-advance
     } else {
-        console.log("Result: Wrong.");
-        // Failure
-        feedbackEl.className = "feedback error";
-        feedbackEl.innerText = `Falsch. \n${explanation}`;
+        feedback.className = "feedback error";
+        feedback.innerText = `Wrong. ${explanation}`;
         streak = 0;
-        updateStats();
-        feedbackEl.style.display = "block";
         document.getElementById("next-btn").style.display = "block";
     }
+    
+    feedback.style.display = "block";
+    updateStats();
 }
 
-// --- 4. NAVIGATION ---
+// --- 5. UTILS ---
 function nextQuestion() {
-    console.log("Step 5: Moving to next question...");
-    currentQuestionIndex++;
+    currentIndex++;
     renderQuestion();
 }
 
@@ -126,11 +121,11 @@ function updateStats() {
 
 function showSummary() {
     document.querySelector(".container").innerHTML = `
-        <h2>Quiz Complete!</h2>
+        <h2>${currentMode.toUpperCase()} COMPLETE!</h2>
         <p>Final Score: ${score}</p>
-        <button onclick="location.reload()" style="background:#007bff; color:white; border:none; padding:10px; cursor:pointer;">Try Again</button>
+        <button onclick="location.reload()" id="next-btn">Menu</button>
     `;
 }
 
-// Start the Engine
+// Start
 loadQuestions();
