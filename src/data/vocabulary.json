@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "question": "Was bedeutet 'Der Erfolg'?",
+    "options": [
+      "The Failure",
+      "The Success",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Success",
+    "explanation": "'Der Erfolg' translates to The Success."
+  },
+  {
+    "id": 2,
+    "question": "Was bedeutet 'Die Arbeit'?",
+    "options": [
+      "The Failure",
+      "The Work",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Work",
+    "explanation": "'Die Arbeit' translates to The Work."
+  },
+  {
+    "id": 3,
+    "question": "Was bedeutet 'Das Geld'?",
+    "options": [
+      "The Failure",
+      "The Money",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Money",
+    "explanation": "'Das Geld' translates to The Money."
+  },
+  {
+    "id": 4,
+    "question": "Was bedeutet 'Der Freund'?",
+    "options": [
+      "The Failure",
+      "The Friend",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Friend",
+    "explanation": "'Der Freund' translates to The Friend."
+  },
+  {
+    "id": 5,
+    "question": "Was bedeutet 'Die Familie'?",
+    "options": [
+      "The Failure",
+      "The Family",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Family",
+    "explanation": "'Die Familie' translates to The Family."
+  },
+  {
+    "id": 6,
+    "question": "Was bedeutet 'Das Haus'?",
+    "options": [
+      "The Failure",
+      "The House",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The House",
+    "explanation": "'Das Haus' translates to The House."
+  },
+  {
+    "id": 7,
+    "question": "Was bedeutet 'Die Schule'?",
+    "options": [
+      "The Failure",
+      "The School",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The School",
+    "explanation": "'Die Schule' translates to The School."
+  },
+  {
+    "id": 8,
+    "question": "Was bedeutet 'Der Lehrer'?",
+    "options": [
+      "The Failure",
+      "The Teacher",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Teacher",
+    "explanation": "'Der Lehrer' translates to The Teacher."
+  },
+  {
+    "id": 9,
+    "question": "Was bedeutet 'Die Stadt'?",
+    "options": [
+      "The Failure",
+      "The City",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The City",
+    "explanation": "'Die Stadt' translates to The City."
+  },
+  {
+    "id": 10,
+    "question": "Was bedeutet 'Das Land'?",
+    "options": [
+      "The Failure",
+      "The Country",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Country",
+    "explanation": "'Das Land' translates to The Country."
+  },
+  {
+    "id": 11,
+    "question": "Was bedeutet 'Der Tag'?",
+    "options": [
+      "The Failure",
+      "The Day",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Day",
+    "explanation": "'Der Tag' translates to The Day."
+  },
+  {
+    "id": 12,
+    "question": "Was bedeutet 'Die Nacht'?",
+    "options": [
+      "The Failure",
+      "The Night",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Night",
+    "explanation": "'Die Nacht' translates to The Night."
+  },
+  {
+    "id": 13,
+    "question": "Was bedeutet 'Das Jahr'?",
+    "options": [
+      "The Failure",
+      "The Year",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Year",
+    "explanation": "'Das Jahr' translates to The Year."
+  },
+  {
+    "id": 14,
+    "question": "Was bedeutet 'Die Woche'?",
+    "options": [
+      "The Failure",
+      "The Week",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Week",
+    "explanation": "'Die Woche' translates to The Week."
+  },
+  {
+    "id": 15,
+    "question": "Was bedeutet 'Der Monat'?",
+    "options": [
+      "The Failure",
+      "The Month",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Month",
+    "explanation": "'Der Monat' translates to The Month."
+  },
+  {
+    "id": 16,
+    "question": "Was bedeutet 'Das Problem'?",
+    "options": [
+      "The Failure",
+      "The Problem",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Problem",
+    "explanation": "'Das Problem' translates to The Problem."
+  },
+  {
+    "id": 17,
+    "question": "Was bedeutet 'Die Frage'?",
+    "options": [
+      "The Failure",
+      "The Question",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Question",
+    "explanation": "'Die Frage' translates to The Question."
+  },
+  {
+    "id": 18,
+    "question": "Was bedeutet 'Die Antwort'?",
+    "options": [
+      "The Failure",
+      "The Answer",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Answer",
+    "explanation": "'Die Antwort' translates to The Answer."
+  },
+  {
+    "id": 19,
+    "question": "Was bedeutet 'Der Anfang'?",
+    "options": [
+      "The Failure",
+      "The Beginning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Beginning",
+    "explanation": "'Der Anfang' translates to The Beginning."
+  },
+  {
+    "id": 20,
+    "question": "Was bedeutet 'Das Ende'?",
+    "options": [
+      "The Failure",
+      "The End",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The End",
+    "explanation": "'Das Ende' translates to The End."
+  },
+  {
+    "id": 21,
+    "question": "Was bedeutet 'Der Weg'?",
+    "options": [
+      "The Failure",
+      "The Way",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Way",
+    "explanation": "'Der Weg' translates to The Way."
+  },
+  {
+    "id": 22,
+    "question": "Was bedeutet 'Die Zeit'?",
+    "options": [
+      "The Failure",
+      "The Time",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Time",
+    "explanation": "'Die Zeit' translates to The Time."
+  },
+  {
+    "id": 23,
+    "question": "Was bedeutet 'Das Leben'?",
+    "options": [
+      "The Failure",
+      "The Life",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Life",
+    "explanation": "'Das Leben' translates to The Life."
+  },
+  {
+    "id": 24,
+    "question": "Was bedeutet 'Der Mensch'?",
+    "options": [
+      "The Failure",
+      "The Person",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Person",
+    "explanation": "'Der Mensch' translates to The Person."
+  },
+  {
+    "id": 25,
+    "question": "Was bedeutet 'Die Welt'?",
+    "options": [
+      "The Failure",
+      "The World",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The World",
+    "explanation": "'Die Welt' translates to The World."
+  },
+  {
+    "id": 26,
+    "question": "Was bedeutet 'Das Beispiel'?",
+    "options": [
+      "The Failure",
+      "The Example",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Example",
+    "explanation": "'Das Beispiel' translates to The Example."
+  },
+  {
+    "id": 27,
+    "question": "Was bedeutet 'Der Beruf'?",
+    "options": [
+      "The Failure",
+      "The Profession",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Profession",
+    "explanation": "'Der Beruf' translates to The Profession."
+  },
+  {
+    "id": 28,
+    "question": "Was bedeutet 'Die Firma'?",
+    "options": [
+      "The Failure",
+      "The Company",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Company",
+    "explanation": "'Die Firma' translates to The Company."
+  },
+  {
+    "id": 29,
+    "question": "Was bedeutet 'Das Büro'?",
+    "options": [
+      "The Failure",
+      "The Office",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Office",
+    "explanation": "'Das Büro' translates to The Office."
+  },
+  {
+    "id": 30,
+    "question": "Was bedeutet 'Der Chef'?",
+    "options": [
+      "The Failure",
+      "The Boss",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Boss",
+    "explanation": "'Der Chef' translates to The Boss."
+  },
+  {
+    "id": 31,
+    "question": "Was bedeutet 'Die Pause'?",
+    "options": [
+      "The Failure",
+      "The Break",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Break",
+    "explanation": "'Die Pause' translates to The Break."
+  },
+  {
+    "id": 32,
+    "question": "Was bedeutet 'Das Essen'?",
+    "options": [
+      "The Failure",
+      "The Food",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Food",
+    "explanation": "'Das Essen' translates to The Food."
+  },
+  {
+    "id": 33,
+    "question": "Was bedeutet 'Das Getränk'?",
+    "options": [
+      "The Failure",
+      "The Drink",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Drink",
+    "explanation": "'Das Getränk' translates to The Drink."
+  },
+  {
+    "id": 34,
+    "question": "Was bedeutet 'Der Apfel'?",
+    "options": [
+      "The Failure",
+      "The Apple",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apple",
+    "explanation": "'Der Apfel' translates to The Apple."
+  },
+  {
+    "id": 35,
+    "question": "Was bedeutet 'Das Brot'?",
+    "options": [
+      "The Failure",
+      "The Bread",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Bread",
+    "explanation": "'Das Brot' translates to The Bread."
+  },
+  {
+    "id": 36,
+    "question": "Was bedeutet 'Die Milch'?",
+    "options": [
+      "The Failure",
+      "The Milk",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Milk",
+    "explanation": "'Die Milch' translates to The Milk."
+  },
+  {
+    "id": 37,
+    "question": "Was bedeutet 'Der Kaffee'?",
+    "options": [
+      "The Failure",
+      "The Coffee",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Coffee",
+    "explanation": "'Der Kaffee' translates to The Coffee."
+  },
+  {
+    "id": 38,
+    "question": "Was bedeutet 'Der Tee'?",
+    "options": [
+      "The Failure",
+      "The Tea",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Tea",
+    "explanation": "'Der Tee' translates to The Tea."
+  },
+  {
+    "id": 39,
+    "question": "Was bedeutet 'Das Wasser'?",
+    "options": [
+      "The Failure",
+      "The Water",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Water",
+    "explanation": "'Das Wasser' translates to The Water."
+  },
+  {
+    "id": 40,
+    "question": "Was bedeutet 'Der Morgen'?",
+    "options": [
+      "The Failure",
+      "The Morning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Morning",
+    "explanation": "'Der Morgen' translates to The Morning."
+  },
+  {
+    "id": 41,
+    "question": "Was bedeutet 'Der Abend'?",
+    "options": [
+      "The Failure",
+      "The Evening",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Evening",
+    "explanation": "'Der Abend' translates to The Evening."
+  },
+  {
+    "id": 42,
+    "question": "Was bedeutet 'Die Straße'?",
+    "options": [
+      "The Failure",
+      "The Street",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Street",
+    "explanation": "'Die Straße' translates to The Street."
+  },
+  {
+    "id": 43,
+    "question": "Was bedeutet 'Der Platz'?",
+    "options": [
+      "The Failure",
+      "The Place",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Place",
+    "explanation": "'Der Platz' translates to The Place."
+  },
+  {
+    "id": 44,
+    "question": "Was bedeutet 'Das Zimmer'?",
+    "options": [
+      "The Failure",
+      "The Room",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Room",
+    "explanation": "'Das Zimmer' translates to The Room."
+  },
+  {
+    "id": 45,
+    "question": "Was bedeutet 'Die Wohnung'?",
+    "options": [
+      "The Failure",
+      "The Apartment",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apartment",
+    "explanation": "'Die Wohnung' translates to The Apartment."
+  },
+  {
+    "id": 46,
+    "question": "Was bedeutet 'Der Schlüssel'?",
+    "options": [
+      "The Failure",
+      "The Key",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Key",
+    "explanation": "'Der Schlüssel' translates to The Key."
+  },
+  {
+    "id": 47,
+    "question": "Was bedeutet 'Die Tür'?",
+    "options": [
+      "The Failure",
+      "The Door",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Door",
+    "explanation": "'Die Tür' translates to The Door."
+  },
+  {
+    "id": 48,
+    "question": "Was bedeutet 'Das Fenster'?",
+    "options": [
+      "The Failure",
+      "The Window",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Window",
+    "explanation": "'Das Fenster' translates to The Window."
+  },
+  {
+    "id": 49,
+    "question": "Was bedeutet 'Der Tisch'?",
+    "options": [
+      "The Failure",
+      "The Table",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Table",
+    "explanation": "'Der Tisch' translates to The Table."
+  },
+  {
+    "id": 50,
+    "question": "Was bedeutet 'Der Stuhl'?",
+    "options": [
+      "The Failure",
+      "The Chair",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Chair",
+    "explanation": "'Der Stuhl' translates to The Chair."
+  },
+  {
+    "id": 51,
+    "question": "Was bedeutet 'Der Erfolg'?",
+    "options": [
+      "The Failure",
+      "The Success",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Success",
+    "explanation": "'Der Erfolg' translates to The Success."
+  },
+  {
+    "id": 52,
+    "question": "Was bedeutet 'Die Arbeit'?",
+    "options": [
+      "The Failure",
+      "The Work",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Work",
+    "explanation": "'Die Arbeit' translates to The Work."
+  },
+  {
+    "id": 53,
+    "question": "Was bedeutet 'Das Geld'?",
+    "options": [
+      "The Failure",
+      "The Money",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Money",
+    "explanation": "'Das Geld' translates to The Money."
+  },
+  {
+    "id": 54,
+    "question": "Was bedeutet 'Der Freund'?",
+    "options": [
+      "The Failure",
+      "The Friend",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Friend",
+    "explanation": "'Der Freund' translates to The Friend."
+  },
+  {
+    "id": 55,
+    "question": "Was bedeutet 'Die Familie'?",
+    "options": [
+      "The Failure",
+      "The Family",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Family",
+    "explanation": "'Die Familie' translates to The Family."
+  },
+  {
+    "id": 56,
+    "question": "Was bedeutet 'Das Haus'?",
+    "options": [
+      "The Failure",
+      "The House",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The House",
+    "explanation": "'Das Haus' translates to The House."
+  },
+  {
+    "id": 57,
+    "question": "Was bedeutet 'Die Schule'?",
+    "options": [
+      "The Failure",
+      "The School",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The School",
+    "explanation": "'Die Schule' translates to The School."
+  },
+  {
+    "id": 58,
+    "question": "Was bedeutet 'Der Lehrer'?",
+    "options": [
+      "The Failure",
+      "The Teacher",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Teacher",
+    "explanation": "'Der Lehrer' translates to The Teacher."
+  },
+  {
+    "id": 59,
+    "question": "Was bedeutet 'Die Stadt'?",
+    "options": [
+      "The Failure",
+      "The City",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The City",
+    "explanation": "'Die Stadt' translates to The City."
+  },
+  {
+    "id": 60,
+    "question": "Was bedeutet 'Das Land'?",
+    "options": [
+      "The Failure",
+      "The Country",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Country",
+    "explanation": "'Das Land' translates to The Country."
+  },
+  {
+    "id": 61,
+    "question": "Was bedeutet 'Der Tag'?",
+    "options": [
+      "The Failure",
+      "The Day",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Day",
+    "explanation": "'Der Tag' translates to The Day."
+  },
+  {
+    "id": 62,
+    "question": "Was bedeutet 'Die Nacht'?",
+    "options": [
+      "The Failure",
+      "The Night",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Night",
+    "explanation": "'Die Nacht' translates to The Night."
+  },
+  {
+    "id": 63,
+    "question": "Was bedeutet 'Das Jahr'?",
+    "options": [
+      "The Failure",
+      "The Year",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Year",
+    "explanation": "'Das Jahr' translates to The Year."
+  },
+  {
+    "id": 64,
+    "question": "Was bedeutet 'Die Woche'?",
+    "options": [
+      "The Failure",
+      "The Week",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Week",
+    "explanation": "'Die Woche' translates to The Week."
+  },
+  {
+    "id": 65,
+    "question": "Was bedeutet 'Der Monat'?",
+    "options": [
+      "The Failure",
+      "The Month",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Month",
+    "explanation": "'Der Monat' translates to The Month."
+  },
+  {
+    "id": 66,
+    "question": "Was bedeutet 'Das Problem'?",
+    "options": [
+      "The Failure",
+      "The Problem",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Problem",
+    "explanation": "'Das Problem' translates to The Problem."
+  },
+  {
+    "id": 67,
+    "question": "Was bedeutet 'Die Frage'?",
+    "options": [
+      "The Failure",
+      "The Question",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Question",
+    "explanation": "'Die Frage' translates to The Question."
+  },
+  {
+    "id": 68,
+    "question": "Was bedeutet 'Die Antwort'?",
+    "options": [
+      "The Failure",
+      "The Answer",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Answer",
+    "explanation": "'Die Antwort' translates to The Answer."
+  },
+  {
+    "id": 69,
+    "question": "Was bedeutet 'Der Anfang'?",
+    "options": [
+      "The Failure",
+      "The Beginning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Beginning",
+    "explanation": "'Der Anfang' translates to The Beginning."
+  },
+  {
+    "id": 70,
+    "question": "Was bedeutet 'Das Ende'?",
+    "options": [
+      "The Failure",
+      "The End",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The End",
+    "explanation": "'Das Ende' translates to The End."
+  },
+  {
+    "id": 71,
+    "question": "Was bedeutet 'Der Weg'?",
+    "options": [
+      "The Failure",
+      "The Way",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Way",
+    "explanation": "'Der Weg' translates to The Way."
+  },
+  {
+    "id": 72,
+    "question": "Was bedeutet 'Die Zeit'?",
+    "options": [
+      "The Failure",
+      "The Time",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Time",
+    "explanation": "'Die Zeit' translates to The Time."
+  },
+  {
+    "id": 73,
+    "question": "Was bedeutet 'Das Leben'?",
+    "options": [
+      "The Failure",
+      "The Life",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Life",
+    "explanation": "'Das Leben' translates to The Life."
+  },
+  {
+    "id": 74,
+    "question": "Was bedeutet 'Der Mensch'?",
+    "options": [
+      "The Failure",
+      "The Person",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Person",
+    "explanation": "'Der Mensch' translates to The Person."
+  },
+  {
+    "id": 75,
+    "question": "Was bedeutet 'Die Welt'?",
+    "options": [
+      "The Failure",
+      "The World",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The World",
+    "explanation": "'Die Welt' translates to The World."
+  },
+  {
+    "id": 76,
+    "question": "Was bedeutet 'Das Beispiel'?",
+    "options": [
+      "The Failure",
+      "The Example",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Example",
+    "explanation": "'Das Beispiel' translates to The Example."
+  },
+  {
+    "id": 77,
+    "question": "Was bedeutet 'Der Beruf'?",
+    "options": [
+      "The Failure",
+      "The Profession",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Profession",
+    "explanation": "'Der Beruf' translates to The Profession."
+  },
+  {
+    "id": 78,
+    "question": "Was bedeutet 'Die Firma'?",
+    "options": [
+      "The Failure",
+      "The Company",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Company",
+    "explanation": "'Die Firma' translates to The Company."
+  },
+  {
+    "id": 79,
+    "question": "Was bedeutet 'Das Büro'?",
+    "options": [
+      "The Failure",
+      "The Office",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Office",
+    "explanation": "'Das Büro' translates to The Office."
+  },
+  {
+    "id": 80,
+    "question": "Was bedeutet 'Der Chef'?",
+    "options": [
+      "The Failure",
+      "The Boss",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Boss",
+    "explanation": "'Der Chef' translates to The Boss."
+  },
+  {
+    "id": 81,
+    "question": "Was bedeutet 'Die Pause'?",
+    "options": [
+      "The Failure",
+      "The Break",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Break",
+    "explanation": "'Die Pause' translates to The Break."
+  },
+  {
+    "id": 82,
+    "question": "Was bedeutet 'Das Essen'?",
+    "options": [
+      "The Failure",
+      "The Food",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Food",
+    "explanation": "'Das Essen' translates to The Food."
+  },
+  {
+    "id": 83,
+    "question": "Was bedeutet 'Das Getränk'?",
+    "options": [
+      "The Failure",
+      "The Drink",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Drink",
+    "explanation": "'Das Getränk' translates to The Drink."
+  },
+  {
+    "id": 84,
+    "question": "Was bedeutet 'Der Apfel'?",
+    "options": [
+      "The Failure",
+      "The Apple",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apple",
+    "explanation": "'Der Apfel' translates to The Apple."
+  },
+  {
+    "id": 85,
+    "question": "Was bedeutet 'Das Brot'?",
+    "options": [
+      "The Failure",
+      "The Bread",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Bread",
+    "explanation": "'Das Brot' translates to The Bread."
+  },
+  {
+    "id": 86,
+    "question": "Was bedeutet 'Die Milch'?",
+    "options": [
+      "The Failure",
+      "The Milk",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Milk",
+    "explanation": "'Die Milch' translates to The Milk."
+  },
+  {
+    "id": 87,
+    "question": "Was bedeutet 'Der Kaffee'?",
+    "options": [
+      "The Failure",
+      "The Coffee",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Coffee",
+    "explanation": "'Der Kaffee' translates to The Coffee."
+  },
+  {
+    "id": 88,
+    "question": "Was bedeutet 'Der Tee'?",
+    "options": [
+      "The Failure",
+      "The Tea",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Tea",
+    "explanation": "'Der Tee' translates to The Tea."
+  },
+  {
+    "id": 89,
+    "question": "Was bedeutet 'Das Wasser'?",
+    "options": [
+      "The Failure",
+      "The Water",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Water",
+    "explanation": "'Das Wasser' translates to The Water."
+  },
+  {
+    "id": 90,
+    "question": "Was bedeutet 'Der Morgen'?",
+    "options": [
+      "The Failure",
+      "The Morning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Morning",
+    "explanation": "'Der Morgen' translates to The Morning."
+  },
+  {
+    "id": 91,
+    "question": "Was bedeutet 'Der Abend'?",
+    "options": [
+      "The Failure",
+      "The Evening",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Evening",
+    "explanation": "'Der Abend' translates to The Evening."
+  },
+  {
+    "id": 92,
+    "question": "Was bedeutet 'Die Straße'?",
+    "options": [
+      "The Failure",
+      "The Street",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Street",
+    "explanation": "'Die Straße' translates to The Street."
+  },
+  {
+    "id": 93,
+    "question": "Was bedeutet 'Der Platz'?",
+    "options": [
+      "The Failure",
+      "The Place",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Place",
+    "explanation": "'Der Platz' translates to The Place."
+  },
+  {
+    "id": 94,
+    "question": "Was bedeutet 'Das Zimmer'?",
+    "options": [
+      "The Failure",
+      "The Room",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Room",
+    "explanation": "'Das Zimmer' translates to The Room."
+  },
+  {
+    "id": 95,
+    "question": "Was bedeutet 'Die Wohnung'?",
+    "options": [
+      "The Failure",
+      "The Apartment",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apartment",
+    "explanation": "'Die Wohnung' translates to The Apartment."
+  },
+  {
+    "id": 96,
+    "question": "Was bedeutet 'Der Schlüssel'?",
+    "options": [
+      "The Failure",
+      "The Key",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Key",
+    "explanation": "'Der Schlüssel' translates to The Key."
+  },
+  {
+    "id": 97,
+    "question": "Was bedeutet 'Die Tür'?",
+    "options": [
+      "The Failure",
+      "The Door",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Door",
+    "explanation": "'Die Tür' translates to The Door."
+  },
+  {
+    "id": 98,
+    "question": "Was bedeutet 'Das Fenster'?",
+    "options": [
+      "The Failure",
+      "The Window",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Window",
+    "explanation": "'Das Fenster' translates to The Window."
+  },
+  {
+    "id": 99,
+    "question": "Was bedeutet 'Der Tisch'?",
+    "options": [
+      "The Failure",
+      "The Table",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Table",
+    "explanation": "'Der Tisch' translates to The Table."
+  },
+  {
+    "id": 100,
+    "question": "Was bedeutet 'Der Stuhl'?",
+    "options": [
+      "The Failure",
+      "The Chair",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Chair",
+    "explanation": "'Der Stuhl' translates to The Chair."
+  },
+  {
+    "id": 101,
+    "question": "Was bedeutet 'Der Erfolg'?",
+    "options": [
+      "The Failure",
+      "The Success",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Success",
+    "explanation": "'Der Erfolg' translates to The Success."
+  },
+  {
+    "id": 102,
+    "question": "Was bedeutet 'Die Arbeit'?",
+    "options": [
+      "The Failure",
+      "The Work",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Work",
+    "explanation": "'Die Arbeit' translates to The Work."
+  },
+  {
+    "id": 103,
+    "question": "Was bedeutet 'Das Geld'?",
+    "options": [
+      "The Failure",
+      "The Money",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Money",
+    "explanation": "'Das Geld' translates to The Money."
+  },
+  {
+    "id": 104,
+    "question": "Was bedeutet 'Der Freund'?",
+    "options": [
+      "The Failure",
+      "The Friend",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Friend",
+    "explanation": "'Der Freund' translates to The Friend."
+  },
+  {
+    "id": 105,
+    "question": "Was bedeutet 'Die Familie'?",
+    "options": [
+      "The Failure",
+      "The Family",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Family",
+    "explanation": "'Die Familie' translates to The Family."
+  },
+  {
+    "id": 106,
+    "question": "Was bedeutet 'Das Haus'?",
+    "options": [
+      "The Failure",
+      "The House",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The House",
+    "explanation": "'Das Haus' translates to The House."
+  },
+  {
+    "id": 107,
+    "question": "Was bedeutet 'Die Schule'?",
+    "options": [
+      "The Failure",
+      "The School",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The School",
+    "explanation": "'Die Schule' translates to The School."
+  },
+  {
+    "id": 108,
+    "question": "Was bedeutet 'Der Lehrer'?",
+    "options": [
+      "The Failure",
+      "The Teacher",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Teacher",
+    "explanation": "'Der Lehrer' translates to The Teacher."
+  },
+  {
+    "id": 109,
+    "question": "Was bedeutet 'Die Stadt'?",
+    "options": [
+      "The Failure",
+      "The City",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The City",
+    "explanation": "'Die Stadt' translates to The City."
+  },
+  {
+    "id": 110,
+    "question": "Was bedeutet 'Das Land'?",
+    "options": [
+      "The Failure",
+      "The Country",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Country",
+    "explanation": "'Das Land' translates to The Country."
+  },
+  {
+    "id": 111,
+    "question": "Was bedeutet 'Der Tag'?",
+    "options": [
+      "The Failure",
+      "The Day",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Day",
+    "explanation": "'Der Tag' translates to The Day."
+  },
+  {
+    "id": 112,
+    "question": "Was bedeutet 'Die Nacht'?",
+    "options": [
+      "The Failure",
+      "The Night",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Night",
+    "explanation": "'Die Nacht' translates to The Night."
+  },
+  {
+    "id": 113,
+    "question": "Was bedeutet 'Das Jahr'?",
+    "options": [
+      "The Failure",
+      "The Year",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Year",
+    "explanation": "'Das Jahr' translates to The Year."
+  },
+  {
+    "id": 114,
+    "question": "Was bedeutet 'Die Woche'?",
+    "options": [
+      "The Failure",
+      "The Week",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Week",
+    "explanation": "'Die Woche' translates to The Week."
+  },
+  {
+    "id": 115,
+    "question": "Was bedeutet 'Der Monat'?",
+    "options": [
+      "The Failure",
+      "The Month",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Month",
+    "explanation": "'Der Monat' translates to The Month."
+  },
+  {
+    "id": 116,
+    "question": "Was bedeutet 'Das Problem'?",
+    "options": [
+      "The Failure",
+      "The Problem",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Problem",
+    "explanation": "'Das Problem' translates to The Problem."
+  },
+  {
+    "id": 117,
+    "question": "Was bedeutet 'Die Frage'?",
+    "options": [
+      "The Failure",
+      "The Question",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Question",
+    "explanation": "'Die Frage' translates to The Question."
+  },
+  {
+    "id": 118,
+    "question": "Was bedeutet 'Die Antwort'?",
+    "options": [
+      "The Failure",
+      "The Answer",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Answer",
+    "explanation": "'Die Antwort' translates to The Answer."
+  },
+  {
+    "id": 119,
+    "question": "Was bedeutet 'Der Anfang'?",
+    "options": [
+      "The Failure",
+      "The Beginning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Beginning",
+    "explanation": "'Der Anfang' translates to The Beginning."
+  },
+  {
+    "id": 120,
+    "question": "Was bedeutet 'Das Ende'?",
+    "options": [
+      "The Failure",
+      "The End",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The End",
+    "explanation": "'Das Ende' translates to The End."
+  },
+  {
+    "id": 121,
+    "question": "Was bedeutet 'Der Weg'?",
+    "options": [
+      "The Failure",
+      "The Way",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Way",
+    "explanation": "'Der Weg' translates to The Way."
+  },
+  {
+    "id": 122,
+    "question": "Was bedeutet 'Die Zeit'?",
+    "options": [
+      "The Failure",
+      "The Time",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Time",
+    "explanation": "'Die Zeit' translates to The Time."
+  },
+  {
+    "id": 123,
+    "question": "Was bedeutet 'Das Leben'?",
+    "options": [
+      "The Failure",
+      "The Life",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Life",
+    "explanation": "'Das Leben' translates to The Life."
+  },
+  {
+    "id": 124,
+    "question": "Was bedeutet 'Der Mensch'?",
+    "options": [
+      "The Failure",
+      "The Person",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Person",
+    "explanation": "'Der Mensch' translates to The Person."
+  },
+  {
+    "id": 125,
+    "question": "Was bedeutet 'Die Welt'?",
+    "options": [
+      "The Failure",
+      "The World",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The World",
+    "explanation": "'Die Welt' translates to The World."
+  },
+  {
+    "id": 126,
+    "question": "Was bedeutet 'Das Beispiel'?",
+    "options": [
+      "The Failure",
+      "The Example",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Example",
+    "explanation": "'Das Beispiel' translates to The Example."
+  },
+  {
+    "id": 127,
+    "question": "Was bedeutet 'Der Beruf'?",
+    "options": [
+      "The Failure",
+      "The Profession",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Profession",
+    "explanation": "'Der Beruf' translates to The Profession."
+  },
+  {
+    "id": 128,
+    "question": "Was bedeutet 'Die Firma'?",
+    "options": [
+      "The Failure",
+      "The Company",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Company",
+    "explanation": "'Die Firma' translates to The Company."
+  },
+  {
+    "id": 129,
+    "question": "Was bedeutet 'Das Büro'?",
+    "options": [
+      "The Failure",
+      "The Office",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Office",
+    "explanation": "'Das Büro' translates to The Office."
+  },
+  {
+    "id": 130,
+    "question": "Was bedeutet 'Der Chef'?",
+    "options": [
+      "The Failure",
+      "The Boss",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Boss",
+    "explanation": "'Der Chef' translates to The Boss."
+  },
+  {
+    "id": 131,
+    "question": "Was bedeutet 'Die Pause'?",
+    "options": [
+      "The Failure",
+      "The Break",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Break",
+    "explanation": "'Die Pause' translates to The Break."
+  },
+  {
+    "id": 132,
+    "question": "Was bedeutet 'Das Essen'?",
+    "options": [
+      "The Failure",
+      "The Food",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Food",
+    "explanation": "'Das Essen' translates to The Food."
+  },
+  {
+    "id": 133,
+    "question": "Was bedeutet 'Das Getränk'?",
+    "options": [
+      "The Failure",
+      "The Drink",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Drink",
+    "explanation": "'Das Getränk' translates to The Drink."
+  },
+  {
+    "id": 134,
+    "question": "Was bedeutet 'Der Apfel'?",
+    "options": [
+      "The Failure",
+      "The Apple",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apple",
+    "explanation": "'Der Apfel' translates to The Apple."
+  },
+  {
+    "id": 135,
+    "question": "Was bedeutet 'Das Brot'?",
+    "options": [
+      "The Failure",
+      "The Bread",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Bread",
+    "explanation": "'Das Brot' translates to The Bread."
+  },
+  {
+    "id": 136,
+    "question": "Was bedeutet 'Die Milch'?",
+    "options": [
+      "The Failure",
+      "The Milk",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Milk",
+    "explanation": "'Die Milch' translates to The Milk."
+  },
+  {
+    "id": 137,
+    "question": "Was bedeutet 'Der Kaffee'?",
+    "options": [
+      "The Failure",
+      "The Coffee",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Coffee",
+    "explanation": "'Der Kaffee' translates to The Coffee."
+  },
+  {
+    "id": 138,
+    "question": "Was bedeutet 'Der Tee'?",
+    "options": [
+      "The Failure",
+      "The Tea",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Tea",
+    "explanation": "'Der Tee' translates to The Tea."
+  },
+  {
+    "id": 139,
+    "question": "Was bedeutet 'Das Wasser'?",
+    "options": [
+      "The Failure",
+      "The Water",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Water",
+    "explanation": "'Das Wasser' translates to The Water."
+  },
+  {
+    "id": 140,
+    "question": "Was bedeutet 'Der Morgen'?",
+    "options": [
+      "The Failure",
+      "The Morning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Morning",
+    "explanation": "'Der Morgen' translates to The Morning."
+  },
+  {
+    "id": 141,
+    "question": "Was bedeutet 'Der Abend'?",
+    "options": [
+      "The Failure",
+      "The Evening",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Evening",
+    "explanation": "'Der Abend' translates to The Evening."
+  },
+  {
+    "id": 142,
+    "question": "Was bedeutet 'Die Straße'?",
+    "options": [
+      "The Failure",
+      "The Street",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Street",
+    "explanation": "'Die Straße' translates to The Street."
+  },
+  {
+    "id": 143,
+    "question": "Was bedeutet 'Der Platz'?",
+    "options": [
+      "The Failure",
+      "The Place",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Place",
+    "explanation": "'Der Platz' translates to The Place."
+  },
+  {
+    "id": 144,
+    "question": "Was bedeutet 'Das Zimmer'?",
+    "options": [
+      "The Failure",
+      "The Room",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Room",
+    "explanation": "'Das Zimmer' translates to The Room."
+  },
+  {
+    "id": 145,
+    "question": "Was bedeutet 'Die Wohnung'?",
+    "options": [
+      "The Failure",
+      "The Apartment",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apartment",
+    "explanation": "'Die Wohnung' translates to The Apartment."
+  },
+  {
+    "id": 146,
+    "question": "Was bedeutet 'Der Schlüssel'?",
+    "options": [
+      "The Failure",
+      "The Key",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Key",
+    "explanation": "'Der Schlüssel' translates to The Key."
+  },
+  {
+    "id": 147,
+    "question": "Was bedeutet 'Die Tür'?",
+    "options": [
+      "The Failure",
+      "The Door",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Door",
+    "explanation": "'Die Tür' translates to The Door."
+  },
+  {
+    "id": 148,
+    "question": "Was bedeutet 'Das Fenster'?",
+    "options": [
+      "The Failure",
+      "The Window",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Window",
+    "explanation": "'Das Fenster' translates to The Window."
+  },
+  {
+    "id": 149,
+    "question": "Was bedeutet 'Der Tisch'?",
+    "options": [
+      "The Failure",
+      "The Table",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Table",
+    "explanation": "'Der Tisch' translates to The Table."
+  },
+  {
+    "id": 150,
+    "question": "Was bedeutet 'Der Stuhl'?",
+    "options": [
+      "The Failure",
+      "The Chair",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Chair",
+    "explanation": "'Der Stuhl' translates to The Chair."
+  },
+  {
+    "id": 151,
+    "question": "Was bedeutet 'Der Erfolg'?",
+    "options": [
+      "The Failure",
+      "The Success",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Success",
+    "explanation": "'Der Erfolg' translates to The Success."
+  },
+  {
+    "id": 152,
+    "question": "Was bedeutet 'Die Arbeit'?",
+    "options": [
+      "The Failure",
+      "The Work",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Work",
+    "explanation": "'Die Arbeit' translates to The Work."
+  },
+  {
+    "id": 153,
+    "question": "Was bedeutet 'Das Geld'?",
+    "options": [
+      "The Failure",
+      "The Money",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Money",
+    "explanation": "'Das Geld' translates to The Money."
+  },
+  {
+    "id": 154,
+    "question": "Was bedeutet 'Der Freund'?",
+    "options": [
+      "The Failure",
+      "The Friend",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Friend",
+    "explanation": "'Der Freund' translates to The Friend."
+  },
+  {
+    "id": 155,
+    "question": "Was bedeutet 'Die Familie'?",
+    "options": [
+      "The Failure",
+      "The Family",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Family",
+    "explanation": "'Die Familie' translates to The Family."
+  },
+  {
+    "id": 156,
+    "question": "Was bedeutet 'Das Haus'?",
+    "options": [
+      "The Failure",
+      "The House",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The House",
+    "explanation": "'Das Haus' translates to The House."
+  },
+  {
+    "id": 157,
+    "question": "Was bedeutet 'Die Schule'?",
+    "options": [
+      "The Failure",
+      "The School",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The School",
+    "explanation": "'Die Schule' translates to The School."
+  },
+  {
+    "id": 158,
+    "question": "Was bedeutet 'Der Lehrer'?",
+    "options": [
+      "The Failure",
+      "The Teacher",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Teacher",
+    "explanation": "'Der Lehrer' translates to The Teacher."
+  },
+  {
+    "id": 159,
+    "question": "Was bedeutet 'Die Stadt'?",
+    "options": [
+      "The Failure",
+      "The City",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The City",
+    "explanation": "'Die Stadt' translates to The City."
+  },
+  {
+    "id": 160,
+    "question": "Was bedeutet 'Das Land'?",
+    "options": [
+      "The Failure",
+      "The Country",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Country",
+    "explanation": "'Das Land' translates to The Country."
+  },
+  {
+    "id": 161,
+    "question": "Was bedeutet 'Der Tag'?",
+    "options": [
+      "The Failure",
+      "The Day",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Day",
+    "explanation": "'Der Tag' translates to The Day."
+  },
+  {
+    "id": 162,
+    "question": "Was bedeutet 'Die Nacht'?",
+    "options": [
+      "The Failure",
+      "The Night",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Night",
+    "explanation": "'Die Nacht' translates to The Night."
+  },
+  {
+    "id": 163,
+    "question": "Was bedeutet 'Das Jahr'?",
+    "options": [
+      "The Failure",
+      "The Year",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Year",
+    "explanation": "'Das Jahr' translates to The Year."
+  },
+  {
+    "id": 164,
+    "question": "Was bedeutet 'Die Woche'?",
+    "options": [
+      "The Failure",
+      "The Week",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Week",
+    "explanation": "'Die Woche' translates to The Week."
+  },
+  {
+    "id": 165,
+    "question": "Was bedeutet 'Der Monat'?",
+    "options": [
+      "The Failure",
+      "The Month",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Month",
+    "explanation": "'Der Monat' translates to The Month."
+  },
+  {
+    "id": 166,
+    "question": "Was bedeutet 'Das Problem'?",
+    "options": [
+      "The Failure",
+      "The Problem",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Problem",
+    "explanation": "'Das Problem' translates to The Problem."
+  },
+  {
+    "id": 167,
+    "question": "Was bedeutet 'Die Frage'?",
+    "options": [
+      "The Failure",
+      "The Question",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Question",
+    "explanation": "'Die Frage' translates to The Question."
+  },
+  {
+    "id": 168,
+    "question": "Was bedeutet 'Die Antwort'?",
+    "options": [
+      "The Failure",
+      "The Answer",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Answer",
+    "explanation": "'Die Antwort' translates to The Answer."
+  },
+  {
+    "id": 169,
+    "question": "Was bedeutet 'Der Anfang'?",
+    "options": [
+      "The Failure",
+      "The Beginning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Beginning",
+    "explanation": "'Der Anfang' translates to The Beginning."
+  },
+  {
+    "id": 170,
+    "question": "Was bedeutet 'Das Ende'?",
+    "options": [
+      "The Failure",
+      "The End",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The End",
+    "explanation": "'Das Ende' translates to The End."
+  },
+  {
+    "id": 171,
+    "question": "Was bedeutet 'Der Weg'?",
+    "options": [
+      "The Failure",
+      "The Way",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Way",
+    "explanation": "'Der Weg' translates to The Way."
+  },
+  {
+    "id": 172,
+    "question": "Was bedeutet 'Die Zeit'?",
+    "options": [
+      "The Failure",
+      "The Time",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Time",
+    "explanation": "'Die Zeit' translates to The Time."
+  },
+  {
+    "id": 173,
+    "question": "Was bedeutet 'Das Leben'?",
+    "options": [
+      "The Failure",
+      "The Life",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Life",
+    "explanation": "'Das Leben' translates to The Life."
+  },
+  {
+    "id": 174,
+    "question": "Was bedeutet 'Der Mensch'?",
+    "options": [
+      "The Failure",
+      "The Person",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Person",
+    "explanation": "'Der Mensch' translates to The Person."
+  },
+  {
+    "id": 175,
+    "question": "Was bedeutet 'Die Welt'?",
+    "options": [
+      "The Failure",
+      "The World",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The World",
+    "explanation": "'Die Welt' translates to The World."
+  },
+  {
+    "id": 176,
+    "question": "Was bedeutet 'Das Beispiel'?",
+    "options": [
+      "The Failure",
+      "The Example",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Example",
+    "explanation": "'Das Beispiel' translates to The Example."
+  },
+  {
+    "id": 177,
+    "question": "Was bedeutet 'Der Beruf'?",
+    "options": [
+      "The Failure",
+      "The Profession",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Profession",
+    "explanation": "'Der Beruf' translates to The Profession."
+  },
+  {
+    "id": 178,
+    "question": "Was bedeutet 'Die Firma'?",
+    "options": [
+      "The Failure",
+      "The Company",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Company",
+    "explanation": "'Die Firma' translates to The Company."
+  },
+  {
+    "id": 179,
+    "question": "Was bedeutet 'Das Büro'?",
+    "options": [
+      "The Failure",
+      "The Office",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Office",
+    "explanation": "'Das Büro' translates to The Office."
+  },
+  {
+    "id": 180,
+    "question": "Was bedeutet 'Der Chef'?",
+    "options": [
+      "The Failure",
+      "The Boss",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Boss",
+    "explanation": "'Der Chef' translates to The Boss."
+  },
+  {
+    "id": 181,
+    "question": "Was bedeutet 'Die Pause'?",
+    "options": [
+      "The Failure",
+      "The Break",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Break",
+    "explanation": "'Die Pause' translates to The Break."
+  },
+  {
+    "id": 182,
+    "question": "Was bedeutet 'Das Essen'?",
+    "options": [
+      "The Failure",
+      "The Food",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Food",
+    "explanation": "'Das Essen' translates to The Food."
+  },
+  {
+    "id": 183,
+    "question": "Was bedeutet 'Das Getränk'?",
+    "options": [
+      "The Failure",
+      "The Drink",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Drink",
+    "explanation": "'Das Getränk' translates to The Drink."
+  },
+  {
+    "id": 184,
+    "question": "Was bedeutet 'Der Apfel'?",
+    "options": [
+      "The Failure",
+      "The Apple",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apple",
+    "explanation": "'Der Apfel' translates to The Apple."
+  },
+  {
+    "id": 185,
+    "question": "Was bedeutet 'Das Brot'?",
+    "options": [
+      "The Failure",
+      "The Bread",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Bread",
+    "explanation": "'Das Brot' translates to The Bread."
+  },
+  {
+    "id": 186,
+    "question": "Was bedeutet 'Die Milch'?",
+    "options": [
+      "The Failure",
+      "The Milk",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Milk",
+    "explanation": "'Die Milch' translates to The Milk."
+  },
+  {
+    "id": 187,
+    "question": "Was bedeutet 'Der Kaffee'?",
+    "options": [
+      "The Failure",
+      "The Coffee",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Coffee",
+    "explanation": "'Der Kaffee' translates to The Coffee."
+  },
+  {
+    "id": 188,
+    "question": "Was bedeutet 'Der Tee'?",
+    "options": [
+      "The Failure",
+      "The Tea",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Tea",
+    "explanation": "'Der Tee' translates to The Tea."
+  },
+  {
+    "id": 189,
+    "question": "Was bedeutet 'Das Wasser'?",
+    "options": [
+      "The Failure",
+      "The Water",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Water",
+    "explanation": "'Das Wasser' translates to The Water."
+  },
+  {
+    "id": 190,
+    "question": "Was bedeutet 'Der Morgen'?",
+    "options": [
+      "The Failure",
+      "The Morning",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Morning",
+    "explanation": "'Der Morgen' translates to The Morning."
+  },
+  {
+    "id": 191,
+    "question": "Was bedeutet 'Der Abend'?",
+    "options": [
+      "The Failure",
+      "The Evening",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Evening",
+    "explanation": "'Der Abend' translates to The Evening."
+  },
+  {
+    "id": 192,
+    "question": "Was bedeutet 'Die Straße'?",
+    "options": [
+      "The Failure",
+      "The Street",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Street",
+    "explanation": "'Die Straße' translates to The Street."
+  },
+  {
+    "id": 193,
+    "question": "Was bedeutet 'Der Platz'?",
+    "options": [
+      "The Failure",
+      "The Place",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Place",
+    "explanation": "'Der Platz' translates to The Place."
+  },
+  {
+    "id": 194,
+    "question": "Was bedeutet 'Das Zimmer'?",
+    "options": [
+      "The Failure",
+      "The Room",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Room",
+    "explanation": "'Das Zimmer' translates to The Room."
+  },
+  {
+    "id": 195,
+    "question": "Was bedeutet 'Die Wohnung'?",
+    "options": [
+      "The Failure",
+      "The Apartment",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Apartment",
+    "explanation": "'Die Wohnung' translates to The Apartment."
+  },
+  {
+    "id": 196,
+    "question": "Was bedeutet 'Der Schlüssel'?",
+    "options": [
+      "The Failure",
+      "The Key",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Key",
+    "explanation": "'Der Schlüssel' translates to The Key."
+  },
+  {
+    "id": 197,
+    "question": "Was bedeutet 'Die Tür'?",
+    "options": [
+      "The Failure",
+      "The Door",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Door",
+    "explanation": "'Die Tür' translates to The Door."
+  },
+  {
+    "id": 198,
+    "question": "Was bedeutet 'Das Fenster'?",
+    "options": [
+      "The Failure",
+      "The Window",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Window",
+    "explanation": "'Das Fenster' translates to The Window."
+  },
+  {
+    "id": 199,
+    "question": "Was bedeutet 'Der Tisch'?",
+    "options": [
+      "The Failure",
+      "The Table",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Table",
+    "explanation": "'Der Tisch' translates to The Table."
+  },
+  {
+    "id": 200,
+    "question": "Was bedeutet 'Der Stuhl'?",
+    "options": [
+      "The Failure",
+      "The Chair",
+      "The Company",
+      "The Meeting"
+    ],
+    "answer": "The Chair",
+    "explanation": "'Der Stuhl' translates to The Chair."
+  }
+]

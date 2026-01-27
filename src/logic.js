@@ -6,19 +6,40 @@ let questions = [];
 
 // --- 1. SETUP: Load Data ---
 async function loadQuestions() {
-    console.log("Step 1: Attempting to load questions...");
+    // --- STATE MANAGEMENT ---
+let fullData = {
+    grammar: [],
+    vocabulary: []
+};
+let currentMode = 'grammar';
+let currentQuestions = [];
+let currentIndex = 0;
+let score = 0;
+let streak = 0;
+
+// --- 1. SETUP: Load BOTH Files ---
+async function loadQuestions() {
+    console.log("Loading modules...");
     try {
-        const response = await fetch('data/questions.json');
-        if (!response.ok) {
-            throw new Error("HTTP error! status: " + response.status);
-        }
-        questions = await response.json();
-        console.log("Step 2: Questions loaded successfully. Total:", questions.length);
-        renderQuestion();
+        // Fetch both files at the same time (Parallel Fetching)
+        const [grammarRes, vocabRes] = await Promise.all([
+            fetch('data/grammar.json'),
+            fetch('data/vocabulary.json')
+        ]);
+
+        // Save them into our specific slots
+        fullData.grammar = await grammarRes.json();
+        fullData.vocabulary = await vocabRes.json();
+        
+        console.log("Modules loaded:", fullData);
+
+        // Start default mode
+        switchMode('grammar'); 
     } catch (error) {
-        console.error("CRITICAL ERROR loading data:", error);
-        document.getElementById("question-text").innerText = "Error loading data. Check Console (F12).";
+        console.error("Error loading data:", error);
+        document.getElementById("question-text").innerText = "Error loading files.";
     }
+}
 }
 
 // --- 2. UI: Show the Question ---
