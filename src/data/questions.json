@@ -1,761 +1,761 @@
 [
   {
     "id": 1,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 2,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "______ Katze schläft.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 3,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 4,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er liest ______ Buch.",
     "options": [
       "der",
-      "den",
       "dem",
+      "das",
       "des"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 5,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 6,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 7,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 8,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 9,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
       "der",
-      "den",
       "dem",
+      "den",
       "des"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 10,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir essen ______ Reis.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 11,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 12,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 13,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
       "der",
-      "den",
       "dem",
+      "den",
       "des"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 14,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 15,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 16,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 17,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 18,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 19,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 20,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 21,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 22,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 23,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 24,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 25,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 26,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 27,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "______ Katze schläft.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 28,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 29,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er liest ______ Buch.",
     "options": [
       "der",
-      "den",
       "dem",
+      "das",
       "des"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 30,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 31,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 32,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 33,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 34,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
       "der",
-      "den",
       "dem",
+      "den",
       "des"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 35,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir essen ______ Reis.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 36,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 37,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 38,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
       "der",
-      "den",
       "dem",
+      "den",
       "des"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 39,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 40,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
       "der",
-      "den",
-      "dem",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 41,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 42,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 43,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 44,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 45,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 46,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 47,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 48,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 49,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 50,
-    "question": "Ich gebe ______ Mann das Buch.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "der",
-      "den",
-      "dem",
-      "des"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "dem",
-    "category": "Dativ",
-    "explanation": "The verb 'geben' requires Dativ for the recipient."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 51,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 52,
-    "question": "Ich sehe ______ Hund.",
+    "question": "______ Katze schläft.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 53,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
+    "answer": "das",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 54,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er liest ______ Buch.",
     "options": [
       "der",
       "dem",
-      "den",
+      "das",
       "des"
     ],
-    "answer": "den",
+    "answer": "das",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 55,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 56,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 57,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 58,
-    "question": "Ich sehe ______ Hund.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 59,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
       "der",
       "dem",
@@ -764,50 +764,50 @@
     ],
     "answer": "den",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 60,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir essen ______ Reis.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
+    "answer": "das",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 61,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 62,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 63,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
       "der",
       "dem",
@@ -816,271 +816,271 @@
     ],
     "answer": "den",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Direct object."
   },
   {
     "id": 64,
-    "question": "Ich sehe ______ Hund.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 65,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 66,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "den",
+    "answer": "einen",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 67,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 68,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 69,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 70,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 71,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 72,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 73,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 74,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 75,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 76,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 77,
-    "question": "Ich sehe ______ Hund.",
+    "question": "______ Katze schläft.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 78,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
+    "answer": "das",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 79,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er liest ______ Buch.",
     "options": [
       "der",
       "dem",
-      "den",
+      "das",
       "des"
     ],
-    "answer": "den",
+    "answer": "das",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 80,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 81,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 82,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 83,
-    "question": "Ich sehe ______ Hund.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 84,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
       "der",
       "dem",
@@ -1089,50 +1089,50 @@
     ],
     "answer": "den",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 85,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir essen ______ Reis.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
+    "answer": "das",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 86,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 87,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 88,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
       "der",
       "dem",
@@ -1141,154 +1141,271 @@
     ],
     "answer": "den",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Direct object."
   },
   {
     "id": 89,
-    "question": "Ich sehe ______ Hund.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 90,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
       "der",
-      "dem",
-      "den",
-      "des"
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 91,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "den",
+    "answer": "einen",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 92,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 93,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 94,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 95,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 96,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 97,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 98,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 99,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 100,
-    "question": "Ich sehe ______ Hund.",
+    "question": "Wir haben im Garten ______.",
+    "options": [
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
+    ],
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
+  },
+  {
+    "id": 101,
+    "question": "Ich trinke ______ Wasser.",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
+  },
+  {
+    "id": 102,
+    "question": "______ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
+  },
+  {
+    "id": 103,
+    "question": "Ich kaufe ______ Brot.",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
+  },
+  {
+    "id": 104,
+    "question": "Er liest ______ Buch.",
+    "options": [
+      "der",
+      "dem",
+      "das",
+      "des"
+    ],
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
+  },
+  {
+    "id": 105,
+    "question": "Wir gehen ______ Schule.",
+    "options": [
+      "zu",
+      "nach",
+      "in",
+      "auf"
+    ],
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
+  },
+  {
+    "id": 106,
+    "question": "Ich bin ______ Student.",
+    "options": [
+      "ein",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
+  },
+  {
+    "id": 107,
+    "question": "Sie hat ______ Auto.",
+    "options": [
+      "ein",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
+  },
+  {
+    "id": 108,
+    "question": "______ Haus ist alt.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
+  },
+  {
+    "id": 109,
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
       "der",
       "dem",
@@ -1297,180 +1414,63 @@
     ],
     "answer": "den",
     "category": "Akkusativ",
-    "explanation": "'sehen' takes Akkusativ for the direct object."
-  },
-  {
-    "id": 101,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 102,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 103,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 104,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 105,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 106,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 107,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 108,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 109,
-    "question": "______ Apfel ist rot.",
-    "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
-    ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 110,
-    "question": "______ Apfel ist rot.",
+    "question": "Wir essen ______ Reis.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 111,
-    "question": "______ Apfel ist rot.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 112,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 113,
-    "question": "______ Apfel ist rot.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 114,
-    "question": "______ Apfel ist rot.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
       "Der",
       "Die",
@@ -1478,324 +1478,324 @@
       "Den"
     ],
     "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 115,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 116,
-    "question": "______ Apfel ist rot.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 117,
-    "question": "______ Apfel ist rot.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 118,
-    "question": "______ Apfel ist rot.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 119,
-    "question": "______ Apfel ist rot.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 120,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 121,
-    "question": "______ Apfel ist rot.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 122,
-    "question": "______ Apfel ist rot.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 123,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 124,
-    "question": "______ Apfel ist rot.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 125,
-    "question": "______ Apfel ist rot.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 126,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 127,
-    "question": "______ Apfel ist rot.",
+    "question": "______ Katze schläft.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 128,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 129,
-    "question": "______ Apfel ist rot.",
+    "question": "Er liest ______ Buch.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "das",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 130,
-    "question": "______ Apfel ist rot.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 131,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 132,
-    "question": "______ Apfel ist rot.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 133,
-    "question": "______ Apfel ist rot.",
+    "question": "______ Haus ist alt.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 134,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 135,
-    "question": "______ Apfel ist rot.",
+    "question": "Wir essen ______ Reis.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 136,
-    "question": "______ Apfel ist rot.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 137,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 138,
-    "question": "______ Apfel ist rot.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 139,
-    "question": "______ Apfel ist rot.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
       "Der",
       "Die",
@@ -1803,12 +1803,324 @@
       "Den"
     ],
     "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 140,
-    "question": "______ Apfel ist rot.",
+    "question": "Ich lerne ______ Deutsch.",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
+  },
+  {
+    "id": 141,
+    "question": "Er hat ______ Film gesehen.",
+    "options": [
+      "ein",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
+  },
+  {
+    "id": 142,
+    "question": "Wir sind gestern ______ Park gegangen.",
+    "options": [
+      "in",
+      "auf",
+      "zu",
+      "bei"
+    ],
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
+  },
+  {
+    "id": 143,
+    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "options": [
+      "für",
+      "an",
+      "mit",
+      "auf"
+    ],
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
+  },
+  {
+    "id": 144,
+    "question": "Das Wetter ist heute ______ als gestern.",
+    "options": [
+      "gut",
+      "besser",
+      "best",
+      "am besten"
+    ],
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
+  },
+  {
+    "id": 145,
+    "question": "Ich ______ morgen früh auf.",
+    "options": [
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
+    ],
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
+  },
+  {
+    "id": 146,
+    "question": "Er ist ______ dem Bus gefahren.",
+    "options": [
+      "mit",
+      "bei",
+      "von",
+      "zu"
+    ],
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
+  },
+  {
+    "id": 147,
+    "question": "Sie trägt ein ______ Kleid.",
+    "options": [
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
+    ],
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
+  },
+  {
+    "id": 148,
+    "question": "Ich interessiere mich ______ Musik.",
+    "options": [
+      "für",
+      "an",
+      "mit",
+      "auf"
+    ],
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
+  },
+  {
+    "id": 149,
+    "question": "Das ist der ______ Tag meines Lebens.",
+    "options": [
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
+    ],
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
+  },
+  {
+    "id": 150,
+    "question": "Wir haben im Garten ______.",
+    "options": [
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
+    ],
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
+  },
+  {
+    "id": 151,
+    "question": "Ich trinke ______ Wasser.",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
+  },
+  {
+    "id": 152,
+    "question": "______ Katze schläft.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
+  },
+  {
+    "id": 153,
+    "question": "Ich kaufe ______ Brot.",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
+  },
+  {
+    "id": 154,
+    "question": "Er liest ______ Buch.",
+    "options": [
+      "der",
+      "dem",
+      "das",
+      "des"
+    ],
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
+  },
+  {
+    "id": 155,
+    "question": "Wir gehen ______ Schule.",
+    "options": [
+      "zu",
+      "nach",
+      "in",
+      "auf"
+    ],
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
+  },
+  {
+    "id": 156,
+    "question": "Ich bin ______ Student.",
+    "options": [
+      "ein",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
+  },
+  {
+    "id": 157,
+    "question": "Sie hat ______ Auto.",
+    "options": [
+      "ein",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
+  },
+  {
+    "id": 158,
+    "question": "______ Haus ist alt.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
+  },
+  {
+    "id": 159,
+    "question": "Ich sehe ______ Lehrer.",
+    "options": [
+      "der",
+      "dem",
+      "den",
+      "des"
+    ],
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
+  },
+  {
+    "id": 160,
+    "question": "Wir essen ______ Reis.",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
+  },
+  {
+    "id": 161,
+    "question": "Er kommt ______ Indien.",
+    "options": [
+      "aus",
+      "nach",
+      "zu",
+      "bei"
+    ],
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
+  },
+  {
+    "id": 162,
+    "question": "Ich wohne ______ München.",
+    "options": [
+      "in",
+      "auf",
+      "nach",
+      "zu"
+    ],
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
+  },
+  {
+    "id": 163,
+    "question": "Sie schreibt ______ Brief.",
+    "options": [
+      "der",
+      "dem",
+      "den",
+      "des"
+    ],
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
+  },
+  {
+    "id": 164,
+    "question": "______ Mann arbeitet hier.",
     "options": [
       "Der",
       "Die",
@@ -1816,519 +2128,298 @@
       "Den"
     ],
     "answer": "Der",
-    "category": "Nominativ",
-    "explanation": "'Apfel' is masculine in Nominativ."
-  },
-  {
-    "id": 141,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 142,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 143,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 144,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 145,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 146,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 147,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 148,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 149,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 150,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 151,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 152,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 153,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 154,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 155,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 156,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 157,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 158,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 159,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 160,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 161,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 162,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 163,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 164,
-    "question": "Wir wohnen ______ Berlin.",
-    "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
-    ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 165,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 166,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 167,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
       "in",
       "auf",
-      "nach",
-      "zu"
+      "zu",
+      "bei"
     ],
     "answer": "in",
     "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 168,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "in",
+    "answer": "für",
     "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 169,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 170,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 171,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "in",
-      "auf",
-      "nach",
+      "mit",
+      "bei",
+      "von",
       "zu"
     ],
-    "answer": "in",
+    "answer": "mit",
     "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 172,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 173,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "in",
+    "answer": "für",
     "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 174,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 175,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 176,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 177,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "______ Katze schläft.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 178,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 179,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Er liest ______ Buch.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "dem",
+      "das",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 180,
-    "question": "Wir wohnen ______ Berlin.",
+    "question": "Wir gehen ______ Schule.",
+    "options": [
+      "zu",
+      "nach",
+      "in",
+      "auf"
+    ],
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
+  },
+  {
+    "id": 181,
+    "question": "Ich bin ______ Student.",
+    "options": [
+      "ein",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
+  },
+  {
+    "id": 182,
+    "question": "Sie hat ______ Auto.",
+    "options": [
+      "ein",
+      "eine",
+      "einen",
+      "einem"
+    ],
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
+  },
+  {
+    "id": 183,
+    "question": "______ Haus ist alt.",
+    "options": [
+      "Der",
+      "Die",
+      "Das",
+      "Den"
+    ],
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
+  },
+  {
+    "id": 184,
+    "question": "Ich sehe ______ Lehrer.",
+    "options": [
+      "der",
+      "dem",
+      "den",
+      "des"
+    ],
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
+  },
+  {
+    "id": 185,
+    "question": "Wir essen ______ Reis.",
+    "options": [
+      "der",
+      "die",
+      "das",
+      "den"
+    ],
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
+  },
+  {
+    "id": 186,
+    "question": "Er kommt ______ Indien.",
+    "options": [
+      "aus",
+      "nach",
+      "zu",
+      "bei"
+    ],
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
+  },
+  {
+    "id": 187,
+    "question": "Ich wohne ______ München.",
     "options": [
       "in",
       "auf",
@@ -2337,1566 +2428,1475 @@
     ],
     "answer": "in",
     "category": "Präposition",
-    "explanation": "Cities are used with 'in'."
-  },
-  {
-    "id": 181,
-    "question": "Er ______ gestern gearbeitet.",
-    "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
-    ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
-  },
-  {
-    "id": 182,
-    "question": "Er ______ gestern gearbeitet.",
-    "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
-    ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
-  },
-  {
-    "id": 183,
-    "question": "Er ______ gestern gearbeitet.",
-    "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
-    ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
-  },
-  {
-    "id": 184,
-    "question": "Er ______ gestern gearbeitet.",
-    "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
-    ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
-  },
-  {
-    "id": 185,
-    "question": "Er ______ gestern gearbeitet.",
-    "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
-    ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
-  },
-  {
-    "id": 186,
-    "question": "Er ______ gestern gearbeitet.",
-    "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
-    ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
-  },
-  {
-    "id": 187,
-    "question": "Er ______ gestern gearbeitet.",
-    "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
-    ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 188,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 189,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 190,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 191,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 192,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 193,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 194,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 195,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 196,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 197,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 198,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 199,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 200,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "hat",
+    "answer": "gearbeitet",
     "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "explanation": "Past participle."
   },
   {
     "id": 201,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 202,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "______ Katze schläft.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 203,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 204,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Er liest ______ Buch.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "dem",
+      "das",
+      "des"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 205,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 206,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 207,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 208,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 209,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 210,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Wir essen ______ Reis.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 211,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 212,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 213,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 214,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 215,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 216,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 217,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 218,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 219,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 220,
-    "question": "Er ______ gestern gearbeitet.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "hat",
-      "ist",
-      "war",
-      "sein"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "hat",
-    "category": "Perfekt",
-    "explanation": "Most verbs form the Perfekt tense with 'haben'."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 221,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 222,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 223,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 224,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 225,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 226,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 227,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "______ Katze schläft.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 228,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 229,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Er liest ______ Buch.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "dem",
+      "das",
+      "des"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 230,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 231,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 232,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 233,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 234,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 235,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Wir essen ______ Reis.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 236,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 237,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 238,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 239,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 240,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 241,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 242,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 243,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 244,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 245,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 246,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 247,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "rotes",
+    "category": "Adjektivdeklination",
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 248,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 249,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 250,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 251,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 252,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "______ Katze schläft.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 253,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 254,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Er liest ______ Buch.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "dem",
+      "das",
+      "des"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 255,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 256,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 257,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 258,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 259,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 260,
-    "question": "Ich ______ Deutsch lernen.",
+    "question": "Wir essen ______ Reis.",
     "options": [
-      "will",
-      "willst",
-      "wollen",
-      "wille"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "will",
-    "category": "Modalverb",
-    "explanation": "First person singular of 'wollen' is 'will'."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 261,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 262,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 263,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 264,
-    "question": "Das ist ein ______ Haus.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 265,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 266,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 267,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 268,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 269,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 270,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 271,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 272,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "großes",
+    "answer": "rotes",
     "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 273,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 274,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 275,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   },
   {
     "id": 276,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich trinke ______ Wasser.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "'Wasser' is neuter."
   },
   {
     "id": 277,
-    "question": "Das ist ein ______ Haus.",
+    "question": "______ Katze schläft.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "Die",
+    "category": "Artikel",
+    "explanation": "'Katze' is feminine."
   },
   {
     "id": 278,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich kaufe ______ Brot.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "Direct object → Akkusativ."
   },
   {
     "id": 279,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Er liest ______ Buch.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "dem",
+      "das",
+      "des"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'lesen' needs Akkusativ."
   },
   {
     "id": 280,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Wir gehen ______ Schule.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "zu",
+      "nach",
+      "in",
+      "auf"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "zu",
+    "category": "Präposition",
+    "explanation": "'zu' is used for direction."
   },
   {
     "id": 281,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich bin ______ Student.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Student' is masculine."
   },
   {
     "id": 282,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Sie hat ______ Auto.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "ein",
+    "category": "Artikel",
+    "explanation": "'Auto' is neuter."
   },
   {
     "id": 283,
-    "question": "Das ist ein ______ Haus.",
+    "question": "______ Haus ist alt.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "Das",
+    "category": "Artikel",
+    "explanation": "'Haus' is neuter."
   },
   {
     "id": 284,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich sehe ______ Lehrer.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ."
   },
   {
     "id": 285,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Wir essen ______ Reis.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "das",
+    "category": "Akkusativ",
+    "explanation": "'Reis' is neuter."
   },
   {
     "id": 286,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Er kommt ______ Indien.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "aus",
+      "nach",
+      "zu",
+      "bei"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "aus",
+    "category": "Präposition",
+    "explanation": "'aus' shows origin."
   },
   {
     "id": 287,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich wohne ______ München.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "in",
+      "auf",
+      "nach",
+      "zu"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Cities use 'in'."
   },
   {
     "id": 288,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Sie schreibt ______ Brief.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "den",
+    "category": "Akkusativ",
+    "explanation": "Direct object."
   },
   {
     "id": 289,
-    "question": "Das ist ein ______ Haus.",
+    "question": "______ Mann arbeitet hier.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "Der",
+    "category": "Artikel",
+    "explanation": "'Mann' is masculine."
   },
   {
     "id": 290,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich lerne ______ Deutsch.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "der",
+      "die",
+      "das",
+      "den"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "das",
+    "category": "Artikel",
+    "explanation": "Language names are neuter."
   },
   {
     "id": 291,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Er hat ______ Film gesehen.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "ein",
+      "eine",
+      "einen",
+      "einem"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "einen",
+    "category": "Akkusativ",
+    "explanation": "Masculine Akkusativ with 'ein'."
   },
   {
     "id": 292,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Wir sind gestern ______ Park gegangen.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "in",
+      "auf",
+      "zu",
+      "bei"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "in",
+    "category": "Präposition",
+    "explanation": "Two-way preposition (location)."
   },
   {
     "id": 293,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Sie hat lange ______ Prüfung gelernt.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "'lernen für' is common."
   },
   {
     "id": 294,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Das Wetter ist heute ______ als gestern.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "gut",
+      "besser",
+      "best",
+      "am besten"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "besser",
+    "category": "Komparativ",
+    "explanation": "Comparative adjective."
   },
   {
     "id": 295,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich ______ morgen früh auf.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "stehe",
+      "stehen",
+      "stand",
+      "gestanden"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "stehe",
+    "category": "Trennbares Verb",
+    "explanation": "Present tense."
   },
   {
     "id": 296,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Er ist ______ dem Bus gefahren.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "mit",
+      "bei",
+      "von",
+      "zu"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "mit",
+    "category": "Präposition",
+    "explanation": "'mit' indicates transport."
   },
   {
     "id": 297,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Sie trägt ein ______ Kleid.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "rot",
+      "rote",
+      "roten",
+      "rotes"
     ],
-    "answer": "großes",
+    "answer": "rotes",
     "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "explanation": "Neuter noun + ein."
   },
   {
     "id": 298,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Ich interessiere mich ______ Musik.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "für",
+      "an",
+      "mit",
+      "auf"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "für",
+    "category": "Präposition",
+    "explanation": "Fixed verb-preposition."
   },
   {
     "id": 299,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Das ist der ______ Tag meines Lebens.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "gut",
+      "besser",
+      "beste",
+      "am besten"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "beste",
+    "category": "Superlativ",
+    "explanation": "Attributive superlative."
   },
   {
     "id": 300,
-    "question": "Das ist ein ______ Haus.",
+    "question": "Wir haben im Garten ______.",
     "options": [
-      "groß",
-      "große",
-      "großes",
-      "großen"
+      "gearbeitet",
+      "arbeiten",
+      "arbeitest",
+      "arbeite"
     ],
-    "answer": "großes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun with 'ein' takes '-es' ending."
+    "answer": "gearbeitet",
+    "category": "Perfekt",
+    "explanation": "Past participle."
   }
 ]
