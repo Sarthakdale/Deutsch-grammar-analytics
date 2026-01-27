@@ -1,35 +1,50 @@
-// State Management (The "Memory" of the app)
+// --- GLOBAL VARIABLES ---
 let currentQuestionIndex = 0;
 let score = 0;
 let streak = 0;
-let questions = []; // We will load data into this array
+let questions = [];
 
-// 1. The "Fetch" (Loading Data from the 'Database')
-// This mimics how real-world apps talk to servers.
+// --- 1. SETUP: Load Data ---
 async function loadQuestions() {
+    console.log("Step 1: Attempting to load questions...");
     try {
         const response = await fetch('data/questions.json');
+        if (!response.ok) {
+            throw new Error("HTTP error! status: " + response.status);
+        }
         questions = await response.json();
+        console.log("Step 2: Questions loaded successfully. Total:", questions.length);
         renderQuestion();
     } catch (error) {
-        console.error("Error loading questions:", error);
-        document.getElementById("question-text").innerText = "Error loading data.";
+        console.error("CRITICAL ERROR loading data:", error);
+        document.getElementById("question-text").innerText = "Error loading data. Check Console (F12).";
     }
 }
 
-// 2. The "Render" (Displaying the Content)
+// --- 2. UI: Show the Question ---
 function renderQuestion() {
-    // Reset UI state for new question
+    console.log("Step 3: Rendering Question Index:", currentQuestionIndex);
+
+    // Check if quiz is finished
+    if (currentQuestionIndex >= questions.length) {
+        console.log("Quiz Finished!");
+        showSummary();
+        return;
+    }
+
     const questionData = questions[currentQuestionIndex];
+    
+    // Update Text
     document.getElementById("question-text").innerText = questionData.question;
+    
+    // Reset UI
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-btn").style.display = "none";
     
-    // Clear previous buttons
+    // Build Buttons
     const optionsContainer = document.getElementById("options-container");
-    optionsContainer.innerHTML = "";
+    optionsContainer.innerHTML = ""; // Clear old buttons
 
-    // Create buttons dynamically
     questionData.options.forEach(option => {
         const btn = document.createElement("button");
         btn.innerText = option;
@@ -38,52 +53,63 @@ function renderQuestion() {
     });
 }
 
-// 3. The "Logic" (Checking the Answer)
+// --- 3. LOGIC: Check Answer ---
 function checkAnswer(selected, correct, explanation) {
+    console.log("Step 4: Answer checked. User picked:", selected);
+    
     const feedbackEl = document.getElementById("feedback");
     
-    // Disable all buttons so user can't click twice
-    const buttons = document.querySelectorAll(".options button");
+    // Lock buttons
+    const buttons = document.querySelectorAll("#options-container button");
     buttons.forEach(btn => btn.disabled = true);
 
     if (selected === correct) {
-        // Success Case
+        console.log("Result: Correct! Waiting 1.5 seconds...");
+        // Success
         feedbackEl.className = "feedback success";
         feedbackEl.innerText = "Richtig! (Correct)";
         score += 10;
         streak += 1;
+        updateStats();
+        feedbackEl.style.display = "block";
+
+        // AUTO-ADVANCE TIMER
+        setTimeout(() => {
+            console.log("Timer finished. Calling nextQuestion()...");
+            nextQuestion();
+        }, 1500); // 1.5 seconds delay
+
     } else {
-        // Failure Case - The "Learning Moment"
+        console.log("Result: Wrong.");
+        // Failure
         feedbackEl.className = "feedback error";
-        // This is the Value Add: Explaining WHY they were wrong
         feedbackEl.innerText = `Falsch. \n${explanation}`;
         streak = 0;
+        updateStats();
+        feedbackEl.style.display = "block";
+        document.getElementById("next-btn").style.display = "block";
     }
+}
 
-    // Update Dashboard Stats
+// --- 4. NAVIGATION ---
+function nextQuestion() {
+    console.log("Step 5: Moving to next question...");
+    currentQuestionIndex++;
+    renderQuestion();
+}
+
+function updateStats() {
     document.getElementById("score").innerText = score;
     document.getElementById("streak").innerText = streak;
-
-    // Show Feedback & Next Button
-    feedbackEl.style.display = "block";
-    document.getElementById("next-btn").style.display = "block";
 }
 
-// 4. Navigation (Next Question)
-function nextQuestion() {
-    currentQuestionIndex++;
-    
-    if (currentQuestionIndex < questions.length) {
-        renderQuestion();
-    } else {
-        // End of Quiz
-        document.querySelector(".container").innerHTML = `
-            <h2>Quiz Complete!</h2>
-            <p>Final Score: ${score}</p>
-            <button onclick="location.reload()">Try Again</button>
-        `;
-    }
+function showSummary() {
+    document.querySelector(".container").innerHTML = `
+        <h2>Quiz Complete!</h2>
+        <p>Final Score: ${score}</p>
+        <button onclick="location.reload()" style="background:#007bff; color:white; border:none; padding:10px; cursor:pointer;">Try Again</button>
+    `;
 }
 
-// Start the app
+// Start the Engine
 loadQuestions();
