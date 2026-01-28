@@ -1,9 +1,3 @@
-// --- AUTHENTICATION CHECK ---
-// If no user profile is found, kick them to login page
-const currentUser = JSON.parse(localStorage.getItem('germanPro_user'));
-if (!currentUser) {
-    window.location.href = 'login.html';
-}
 // --- STATE MANAGEMENT ---
 let fullData = { grammar: [], vocabulary: [] };
 let currentMode = 'grammar';
@@ -14,7 +8,7 @@ let streak = 0;
 
 let sessionAnalytics = {}; 
 
-// Load Memory
+// Load Memory (Smart Review Data)
 let lifetimeData = JSON.parse(localStorage.getItem('germanPro_storage')) || {
     totalQuestions: 0,
     totalErrors: 0,
@@ -39,12 +33,12 @@ async function loadQuestions() {
     } catch (error) { console.error(error); }
 }
 
-// --- 2. THE SMART ALGORITHM (CORE UPGRADE) ---
+// --- 2. THE SMART ALGORITHM ---
 function switchMode(mode) {
     currentMode = mode;
     const allQuestions = fullData[mode];
     
-    // A. Identify Weak Categories (Accuracy < 50%)
+    // A. Identify Weak Categories (< 50% accuracy)
     let weakCategories = [];
     for (const [cat, stats] of Object.entries(lifetimeData.categoryStats)) {
         if (stats.attempts > 0 && (stats.correct / stats.attempts) < 0.5) {
@@ -52,30 +46,23 @@ function switchMode(mode) {
         }
     }
 
-    // B. The "Priority Queue" Logic
+    // B. Priority Queue Logic
     let priorityQuestions = [];
-    let standardQuestions = [];
-
     if (weakCategories.length > 0) {
-        // If user has weaknesses, find matching questions
         priorityQuestions = allQuestions.filter(q => weakCategories.includes(q.category));
-        // Shuffle them and pick top 4 (Focused Review)
         priorityQuestions = priorityQuestions.sort(() => 0.5 - Math.random()).slice(0, 4);
     }
 
-    // C. Fill the rest with Random Questions (Discovery)
-    // Filter out the ones we already picked to avoid duplicates
+    // C. Fill with Random Questions
     const priorityIds = priorityQuestions.map(q => q.id);
     let remainingPool = allQuestions.filter(q => !priorityIds.includes(q.id));
-    
-    // We need enough to reach 10 total
     let needed = 10 - priorityQuestions.length;
     let randomFill = remainingPool.sort(() => 0.5 - Math.random()).slice(0, needed);
 
-    // D. Combine & Final Shuffle
+    // D. Final Mix
     currentQuestions = [...priorityQuestions, ...randomFill].sort(() => 0.5 - Math.random());
 
-    // --- Reset Session ---
+    // Reset Session
     currentIndex = 0;
     score = 0; 
     sessionAnalytics = {}; 
@@ -86,7 +73,7 @@ function switchMode(mode) {
         if(btn.getAttribute('onclick').includes(mode)) btn.classList.add('active');
     });
     
-    // SMART HEADER: Tell the user if we are adapting!
+    // Smart Header
     let titleText = `${mode.toUpperCase()} (Session: ${currentQuestions.length})`;
     if (priorityQuestions.length > 0) {
         titleText += " 🔥 Smart Review Active";
@@ -180,7 +167,6 @@ function showAnalyticsReport() {
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-btn").style.display = "none";
     
-    // DYNAMIC HEADER
     let headerText = "Performance Review";
     if (score === 100) headerText = "🏆 Perfect Session!";
     else if (score < 50) headerText = "⚠️ Needs Focus";
@@ -229,16 +215,3 @@ function showAnalyticsReport() {
 }
 
 loadQuestions();
-
-// --- AUTH UTILS ---
-function logout() {
-    if(confirm("Are you sure you want to logout? This will clear your session.")) {
-        localStorage.removeItem('germanPro_user'); // Clear user
-        window.location.href = 'login.html';       // Go to login
-    }
-}
-
-// Display Name on Load
-if (currentUser && document.getElementById('user-display-name')) {
-    document.getElementById('user-display-name').innerText = currentUser.name;
-}
