@@ -3,11 +3,18 @@ let fullData = { grammar: [], vocabulary: [] };
 let currentMode = 'grammar';
 let currentQuestions = [];
 let currentIndex = 0;
-let score = 0;
-let streak = 0;
+let score = 0;         // Session Score
+let streak = 0;        // Current Streak
 
-// Analytics Data
-let analyticsData = {}; 
+// Session Analytics (Resets every 10 questions)
+let sessionAnalytics = {}; 
+
+// Lifetime Analytics (Loaded from Browser Memory)
+let lifetimeData = JSON.parse(localStorage.getItem('germanPro_storage')) || {
+    totalQuestions: 0,
+    totalErrors: 0,
+    categoryStats: {} // { "Dativ": { attempts: 10, correct: 4 } }
+};
 
 // --- 1. SETUP ---
 async function loadQuestions() {
@@ -17,37 +24,32 @@ async function loadQuestions() {
             fetch('data/vocabulary.json')
         ]);
 
-        if (!grammarRes.ok || !vocabRes.ok) throw new Error("File load failed");
-
         fullData.grammar = await grammarRes.json();
         fullData.vocabulary = await vocabRes.json();
         
-        // Start with Grammar
+        // Restore Streak from memory if available
+        if (localStorage.getItem('germanPro_streak')) {
+            streak = parseInt(localStorage.getItem('germanPro_streak'));
+            updateStats();
+        }
+
         switchMode('grammar'); 
     } catch (error) {
         console.error(error);
-        document.getElementById("question-text").innerText = "Error loading data.";
     }
 }
 
-// --- 2. SWITCH MODES (With Shuffle & 10-Question Limit) ---
+// --- 2. SWITCH MODES ---
 function switchMode(mode) {
     currentMode = mode;
-    
-    // STEP 1: Get all available questions
     const allQuestions = fullData[mode];
-
-    // STEP 2: Randomize them (Shuffle the deck)
+    // Shuffle and slice 10
     const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-
-    // STEP 3: Slice the top 10 (or fewer if file is small)
     currentQuestions = shuffled.slice(0, 10);
 
-    // Reset Progress for this new session
     currentIndex = 0;
-    score = 0;
-    streak = 0;
-    analyticsData = {}; // Reset tracking
+    score = 0; 
+    sessionAnalytics = {}; // Reset SESSION data only
     
     // UI Updates
     document.querySelectorAll('.nav-item').forEach(btn => {
@@ -55,17 +57,15 @@ function switchMode(mode) {
         if(btn.getAttribute('onclick').includes(mode)) btn.classList.add('active');
     });
     
-    // Update Header
-    document.getElementById('mode-title').innerText = `${mode.toUpperCase()} (Session: ${currentQuestions.length} Qs)`;
-    
+    document.getElementById('mode-title').innerText = `${mode.toUpperCase()} (Session: ${currentQuestions.length})`;
     updateStats();
     renderQuestion();
 }
 
 // --- 3. RENDER UI ---
 function renderQuestion() {
-    // If we finished the 10 questions, show the report
     if (currentIndex >= currentQuestions.length) {
+        saveLifetimeData(); // SAVE DATA before showing report
         showAnalyticsReport(); 
         return;
     }
@@ -82,41 +82,50 @@ function renderQuestion() {
     q.options.forEach(opt => {
         const btn = document.createElement("button");
         btn.innerText = opt;
-        // Pass the category to the checker
         btn.onclick = () => checkAnswer(opt, q.answer, q.explanation, q.category);
         container.appendChild(btn);
     });
 }
 
-// --- 4. CHECK ANSWER & TRACK DATA ---
+// --- 4. CHECK ANSWER ---
 function checkAnswer(selected, correct, explanation, category) {
     const feedback = document.getElementById("feedback");
     const buttons = document.querySelectorAll("#options-container button");
     buttons.forEach(b => b.disabled = true);
 
-    // Track Category Data
     const cat = category || "General";
-    if (!analyticsData[cat]) analyticsData[cat] = { total: 0, errors: 0 };
+    
+    // 1. Update SESSION Data
+    if (!sessionAnalytics[cat]) sessionAnalytics[cat] = { total: 0, errors: 0 };
+    sessionAnalytics[cat].total++;
 
-    analyticsData[cat].total++; 
+    // 2. Update LIFETIME Data (In Memory)
+    if (!lifetimeData.categoryStats[cat]) lifetimeData.categoryStats[cat] = { attempts: 0, correct: 0 };
+    lifetimeData.categoryStats[cat].attempts++;
+    lifetimeData.totalQuestions++;
 
     if (selected === correct) {
         feedback.className = "feedback success";
         feedback.innerText = "Correct!";
         score += 10;
         streak++;
+        
+        lifetimeData.categoryStats[cat].correct++; // Update lifetime correct
+        
         setTimeout(nextQuestion, 1000);
     } else {
         feedback.className = "feedback error";
         feedback.innerText = `Wrong. ${explanation}`;
         streak = 0;
         
-        // Log Error
-        analyticsData[cat].errors++; 
+        sessionAnalytics[cat].errors++; // Session error
+        lifetimeData.totalErrors++;     // Lifetime error
         
         document.getElementById("next-btn").style.display = "block";
     }
     
+    // Save Streak immediately (so they don't lose it if they refresh)
+    localStorage.setItem('germanPro_streak', streak);
     feedback.style.display = "block";
     updateStats();
 }
@@ -131,58 +140,63 @@ function updateStats() {
     document.getElementById("streak").innerText = streak;
 }
 
-// --- 5. ANALYTICS REPORT CARD ---
+// --- 5. DATA PERSISTENCE ---
+function saveLifetimeData() {
+    // Commit the memory variable to the Browser Database (LocalStorage)
+    localStorage.setItem('germanPro_storage', JSON.stringify(lifetimeData));
+    console.log("Data Saved:", lifetimeData);
+}
+
+// --- 6. REPORT CARD (With Lifetime Insights) ---
 function showAnalyticsReport() {
     const container = document.querySelector(".container");
-    const optionsDiv = document.getElementById("options-container");
-    const feedbackDiv = document.getElementById("feedback");
-    
-    // Hide Quiz Elements
-    optionsDiv.style.display = "none";
-    feedbackDiv.style.display = "none";
+    document.getElementById("options-container").style.display = "none";
+    document.getElementById("feedback").style.display = "none";
     document.getElementById("next-btn").style.display = "none";
     document.getElementById("question-text").innerText = "Performance Review";
 
-    // Build Report
-    let reportHTML = `<div class="report-card"><h3>Session Score: ${score}</h3>`;
-    let hasWeakness = false;
+    let reportHTML = `<div class="report-card">
+        <h3>Session Score: ${score}</h3>
+        <p style="text-align:center; color: #94a3b8; font-size: 0.9rem; margin-bottom: 20px;">
+            Total Questions Solved (Lifetime): <b style="color:white">${lifetimeData.totalQuestions}</b>
+        </p>`;
 
-    // Sort categories by Error Rate
-    const sortedCats = Object.keys(analyticsData).sort((a,b) => {
-        const rateA = analyticsData[a].errors / analyticsData[a].total;
-        const rateB = analyticsData[b].errors / analyticsData[b].total;
+    // Sort by Session Errors
+    const sortedCats = Object.keys(sessionAnalytics).sort((a,b) => {
+        const rateA = sessionAnalytics[a].errors / sessionAnalytics[a].total;
+        const rateB = sessionAnalytics[b].errors / sessionAnalytics[b].total;
         return rateB - rateA;
     });
 
     sortedCats.forEach(cat => {
-        const data = analyticsData[cat];
-        const errorRate = Math.round((data.errors / data.total) * 100);
-        
-        let statusColor = errorRate > 50 ? "#ef4444" : (errorRate > 0 ? "#f59e0b" : "#22c55e");
-        let statusText = errorRate > 50 ? "Critical Weakness" : (errorRate > 0 ? "Needs Practice" : "Mastered");
+        const sData = sessionAnalytics[cat]; // Session Data
+        const lData = lifetimeData.categoryStats[cat]; // Lifetime Data
 
-        if (errorRate > 0) hasWeakness = true;
+        const sessionErrorRate = Math.round((sData.errors / sData.total) * 100);
+        const lifetimeAccuracy = Math.round((lData.correct / lData.attempts) * 100);
+        
+        let statusColor = sessionErrorRate > 50 ? "#ef4444" : (sessionErrorRate > 0 ? "#f59e0b" : "#22c55e");
+        let statusText = sessionErrorRate > 50 ? "Critical Weakness" : "Mastered";
 
         reportHTML += `
             <div class="stat-row">
-                <span class="stat-name">${cat}</span>
+                <div style="display:flex; justify-content:space-between;">
+                    <span class="stat-name">${cat}</span>
+                    <span style="font-size:0.75rem; color:#64748b;">Lifetime Acc: ${lifetimeAccuracy}%</span>
+                </div>
                 <div class="stat-bar-bg">
-                    <div class="stat-bar-fill" style="width: ${100 - errorRate}%; background: ${statusColor}"></div>
+                    <div class="stat-bar-fill" style="width: ${100 - sessionErrorRate}%; background: ${statusColor}"></div>
                 </div>
                 <span class="stat-label" style="color: ${statusColor}">${statusText}</span>
             </div>
         `;
     });
-
-    if (!hasWeakness) reportHTML += `<p style="color:var(--success); margin-top:1rem;">Perfect run! No weaknesses detected.</p>`;
     
     reportHTML += `<button onclick="location.reload()" id="restart-btn">Start New Session</button></div>`;
     
-    // Show Report
     const reportContainer = document.createElement("div");
     reportContainer.innerHTML = reportHTML;
     container.appendChild(reportContainer);
 }
 
-// Start App
 loadQuestions();
