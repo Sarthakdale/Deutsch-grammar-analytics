@@ -20,6 +20,13 @@
 
 ---
 
+## 📸 Interface Preview
+
+| **The Dashboard** | **The Analytics Engine** |
+|:---:|:---:|
+| <img src="./assets/dashboard.png" width="300"> | <img src="./assets/analytics.png" width="300"> |
+| *Distraction-free "Midnight Pro" UI* | *Real-time Weakness Detection* |
+
 ## 🛠️ Technical Strategy & Architecture
 
 We prioritized **Scalability** and **User Experience** in our architectural decisions.
@@ -78,3 +85,20 @@ We measure success using the following metrics:
     2. Injects 4 "Weakness Questions" into the session queue.
     3. Fills the remaining slots with random discovery questions.
 * **Business Value:** Increases learning efficiency by **40%**, driving higher user satisfaction and retention.
+
+
+### 📂 File Structure
+We utilize a flat-file architecture optimized for static hosting (Netlify):
+
+```text
+/german-pro-analytics
+│
+├── index.html          # Application Entry Point (DOM Structure)
+├── logic.js            # The "Brain" (Smart Algorithm & LocalStorage)
+├── style.css           # Design System (CSS Variables)
+│
+├── data/               # The "Database" Layer
+│   ├── grammar.json    # Grammar Questions Module
+│   └── vocabulary.json # Vocabulary Questions Module
+│
+└── README.md           # Product Documentation
