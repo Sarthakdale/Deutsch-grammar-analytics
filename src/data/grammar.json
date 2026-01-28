@@ -1,488 +1,489 @@
 [
   {
     "id": 1,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Apfel ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Apfel' takes the Dativ article here."
   },
   {
     "id": 2,
-    "question": "______ Katze schläft.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Baum.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Baum' is the direct object."
   },
   {
     "id": 3,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Nominativ Case",
+    "question": "______ Stuhl ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "Der",
+    "explanation": "'Stuhl' is the subject, so it is in Nominativ case."
   },
   {
     "id": 4,
-    "question": "Er liest ______ Buch.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Tisch ein Geschenk.",
     "options": [
       "der",
+      "den",
       "dem",
-      "das",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Tisch' takes the Dativ article here."
   },
   {
     "id": 5,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Hund.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Hund' is the direct object."
   },
   {
     "id": 6,
-    "question": "Ich bin ______ Student.",
+    "category": "Nominativ Case",
+    "question": "______ Katze ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "Der",
+    "explanation": "'Katze' is the subject, so it is in Nominativ case."
   },
   {
     "id": 7,
-    "question": "Sie hat ______ Auto.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Lehrer ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Lehrer' takes the Dativ article here."
   },
   {
     "id": 8,
-    "question": "______ Haus ist alt.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Student.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Student' is the direct object."
   },
   {
     "id": 9,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Nominativ Case",
+    "question": "______ Arzt ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "Der",
+    "explanation": "'Arzt' is the subject, so it is in Nominativ case."
   },
   {
     "id": 10,
-    "question": "Wir essen ______ Reis.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Freund ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Freund' takes the Dativ article here."
   },
   {
     "id": 11,
-    "question": "Er kommt ______ Indien.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Bruder.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Bruder' is the direct object."
   },
   {
     "id": 12,
-    "question": "Ich wohne ______ München.",
+    "category": "Nominativ Case",
+    "question": "______ Vater ist sehr wichtig.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "Der",
+    "explanation": "'Vater' is the subject, so it is in Nominativ case."
   },
   {
     "id": 13,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Onkel ein Geschenk.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Onkel' takes the Dativ article here."
   },
   {
     "id": 14,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Nachbar.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Nachbar' is the direct object."
   },
   {
     "id": 15,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Nominativ Case",
+    "question": "______ Kollege ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "Der",
+    "explanation": "'Kollege' is the subject, so it is in Nominativ case."
   },
   {
     "id": 16,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Chef ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Chef' takes the Dativ article here."
   },
   {
     "id": 17,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Bäcker.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Bäcker' is the direct object."
   },
   {
     "id": 18,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Nominativ Case",
+    "question": "______ Fahrer ist sehr wichtig.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "Der",
+    "explanation": "'Fahrer' is the subject, so it is in Nominativ case."
   },
   {
     "id": 19,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Gast ein Geschenk.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Gast' takes the Dativ article here."
   },
   {
     "id": 20,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Kunde.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Kunde' is the direct object."
   },
   {
     "id": 21,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Nominativ Case",
+    "question": "______ Frau ist sehr wichtig.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "Der",
+    "explanation": "'Frau' is the subject, so it is in Nominativ case."
   },
   {
     "id": 22,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Mutter ein Geschenk.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Mutter' takes the Dativ article here."
   },
   {
     "id": 23,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Schwester.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Schwester' is the direct object."
   },
   {
     "id": 24,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Nominativ Case",
+    "question": "______ Tante ist sehr wichtig.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "Der",
+    "explanation": "'Tante' is the subject, so it is in Nominativ case."
   },
   {
     "id": 25,
-    "question": "Wir haben im Garten ______.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Freundin ein Geschenk.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Freundin' takes the Dativ article here."
   },
   {
     "id": 26,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Lehrerin.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Lehrerin' is the direct object."
   },
   {
     "id": 27,
-    "question": "______ Katze schläft.",
+    "category": "Nominativ Case",
+    "question": "______ Ärztin ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "Der",
+    "explanation": "'Ärztin' is the subject, so it is in Nominativ case."
   },
   {
     "id": 28,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Kellnerin ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kellnerin' takes the Dativ article here."
   },
   {
     "id": 29,
-    "question": "Er liest ______ Buch.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Nachbarin.",
     "options": [
       "der",
       "dem",
-      "das",
+      "den",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Nachbarin' is the direct object."
   },
   {
     "id": 30,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Nominativ Case",
+    "question": "______ Kollegin ist sehr wichtig.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "Der",
+    "explanation": "'Kollegin' is the subject, so it is in Nominativ case."
   },
   {
     "id": 31,
-    "question": "Ich bin ______ Student.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Kind ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kind' takes the Dativ article here."
   },
   {
     "id": 32,
-    "question": "Sie hat ______ Auto.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Baby.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Baby' is the direct object."
   },
   {
     "id": 33,
-    "question": "______ Haus ist alt.",
+    "category": "Nominativ Case",
+    "question": "______ Auto ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "Der",
+    "explanation": "'Auto' is the subject, so it is in Nominativ case."
   },
   {
     "id": 34,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Buch ein Geschenk.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Buch' takes the Dativ article here."
   },
   {
     "id": 35,
-    "question": "Wir essen ______ Reis.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Haus.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Haus' is the direct object."
   },
   {
     "id": 36,
-    "question": "Er kommt ______ Indien.",
+    "category": "Nominativ Case",
+    "question": "______ Ticket ist sehr wichtig.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "Der",
+    "explanation": "'Ticket' is the subject, so it is in Nominativ case."
   },
   {
     "id": 37,
-    "question": "Ich wohne ______ München.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Geschenk ein Geschenk.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Geschenk' takes the Dativ article here."
   },
   {
     "id": 38,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Telefon.",
     "options": [
       "der",
       "dem",
@@ -490,12 +491,12 @@
       "des"
     ],
     "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "explanation": "The verb takes Akkusativ. 'Telefon' is the direct object."
   },
   {
     "id": 39,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Nominativ Case",
+    "question": "______ Fenster ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
@@ -503,259 +504,259 @@
       "Den"
     ],
     "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "explanation": "'Fenster' is the subject, so it is in Nominativ case."
   },
   {
     "id": 40,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Zimmer ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Zimmer' takes the Dativ article here."
   },
   {
     "id": 41,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Schlüssel.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Schlüssel' is the direct object."
   },
   {
     "id": 42,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Nominativ Case",
+    "question": "______ Computer ist sehr wichtig.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "Der",
+    "explanation": "'Computer' is the subject, so it is in Nominativ case."
   },
   {
     "id": 43,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Laptop ein Geschenk.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Laptop' takes the Dativ article here."
   },
   {
     "id": 44,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Handy.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Handy' is the direct object."
   },
   {
     "id": 45,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Nominativ Case",
+    "question": "______ Radio ist sehr wichtig.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "Der",
+    "explanation": "'Radio' is the subject, so it is in Nominativ case."
   },
   {
     "id": 46,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Fernseher ein Geschenk.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Fernseher' takes the Dativ article here."
   },
   {
     "id": 47,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Bleistift.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Bleistift' is the direct object."
   },
   {
     "id": 48,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Nominativ Case",
+    "question": "______ Stift ist sehr wichtig.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "Der",
+    "explanation": "'Stift' is the subject, so it is in Nominativ case."
   },
   {
     "id": 49,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Heft ein Geschenk.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Heft' takes the Dativ article here."
   },
   {
     "id": 50,
-    "question": "Wir haben im Garten ______.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Rucksack.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Rucksack' is the direct object."
   },
   {
     "id": 51,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Nominativ Case",
+    "question": "______ Schule ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "Der",
+    "explanation": "'Schule' is the subject, so it is in Nominativ case."
   },
   {
     "id": 52,
-    "question": "______ Katze schläft.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Universität ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Universität' takes the Dativ article here."
   },
   {
     "id": 53,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Firma.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Firma' is the direct object."
   },
   {
     "id": 54,
-    "question": "Er liest ______ Buch.",
+    "category": "Nominativ Case",
+    "question": "______ Büro ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "das",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "Der",
+    "explanation": "'Büro' is the subject, so it is in Nominativ case."
   },
   {
     "id": 55,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Markt ein Geschenk.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Markt' takes the Dativ article here."
   },
   {
     "id": 56,
-    "question": "Ich bin ______ Student.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Supermarkt.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Supermarkt' is the direct object."
   },
   {
     "id": 57,
-    "question": "Sie hat ______ Auto.",
+    "category": "Nominativ Case",
+    "question": "______ Restaurant ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "Der",
+    "explanation": "'Restaurant' is the subject, so it is in Nominativ case."
   },
   {
     "id": 58,
-    "question": "______ Haus ist alt.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Hotel ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Hotel' takes the Dativ article here."
   },
   {
     "id": 59,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Flughafen.",
     "options": [
       "der",
       "dem",
@@ -763,701 +764,701 @@
       "des"
     ],
     "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "explanation": "The verb takes Akkusativ. 'Flughafen' is the direct object."
   },
   {
     "id": 60,
-    "question": "Wir essen ______ Reis.",
+    "category": "Nominativ Case",
+    "question": "______ Bahnhof ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "Der",
+    "explanation": "'Bahnhof' is the subject, so it is in Nominativ case."
   },
   {
     "id": 61,
-    "question": "Er kommt ______ Indien.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Bus ein Geschenk.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bus' takes the Dativ article here."
   },
   {
     "id": 62,
-    "question": "Ich wohne ______ München.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Zug.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Zug' is the direct object."
   },
   {
     "id": 63,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Nominativ Case",
+    "question": "______ Straßenbahn ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "Der",
+    "explanation": "'Straßenbahn' is the subject, so it is in Nominativ case."
   },
   {
     "id": 64,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Fahrrad ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Fahrrad' takes the Dativ article here."
   },
   {
     "id": 65,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Motorrad.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Motorrad' is the direct object."
   },
   {
     "id": 66,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Nominativ Case",
+    "question": "______ Taxi ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "Der",
+    "explanation": "'Taxi' is the subject, so it is in Nominativ case."
   },
   {
     "id": 67,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Reise ein Geschenk.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Reise' takes the Dativ article here."
   },
   {
     "id": 68,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Urlaub.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Urlaub' is the direct object."
   },
   {
     "id": 69,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Nominativ Case",
+    "question": "______ Ausflug ist sehr wichtig.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "Der",
+    "explanation": "'Ausflug' is the subject, so it is in Nominativ case."
   },
   {
     "id": 70,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Termin ein Geschenk.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Termin' takes the Dativ article here."
   },
   {
     "id": 71,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Arbeit.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Arbeit' is the direct object."
   },
   {
     "id": 72,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Nominativ Case",
+    "question": "______ Pause ist sehr wichtig.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "Der",
+    "explanation": "'Pause' is the subject, so it is in Nominativ case."
   },
   {
     "id": 73,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Meeting ein Geschenk.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Meeting' takes the Dativ article here."
   },
   {
     "id": 74,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Projekt.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Projekt' is the direct object."
   },
   {
     "id": 75,
-    "question": "Wir haben im Garten ______.",
+    "category": "Nominativ Case",
+    "question": "______ Plan ist sehr wichtig.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "Der",
+    "explanation": "'Plan' is the subject, so it is in Nominativ case."
   },
   {
     "id": 76,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Ziel ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Ziel' takes the Dativ article here."
   },
   {
     "id": 77,
-    "question": "______ Katze schläft.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Erfolg.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Erfolg' is the direct object."
   },
   {
     "id": 78,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Nominativ Case",
+    "question": "______ Problem ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "Der",
+    "explanation": "'Problem' is the subject, so it is in Nominativ case."
   },
   {
     "id": 79,
-    "question": "Er liest ______ Buch.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Lösung ein Geschenk.",
     "options": [
       "der",
+      "den",
       "dem",
-      "das",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Lösung' takes the Dativ article here."
   },
   {
     "id": 80,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Frage.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Frage' is the direct object."
   },
   {
     "id": 81,
-    "question": "Ich bin ______ Student.",
+    "category": "Nominativ Case",
+    "question": "______ Antwort ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "Der",
+    "explanation": "'Antwort' is the subject, so it is in Nominativ case."
   },
   {
     "id": 82,
-    "question": "Sie hat ______ Auto.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Idee ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Idee' takes the Dativ article here."
   },
   {
     "id": 83,
-    "question": "______ Haus ist alt.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Zeit.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Zeit' is the direct object."
   },
   {
     "id": 84,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Nominativ Case",
+    "question": "______ Tag ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "Der",
+    "explanation": "'Tag' is the subject, so it is in Nominativ case."
   },
   {
     "id": 85,
-    "question": "Wir essen ______ Reis.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Woche ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Woche' takes the Dativ article here."
   },
   {
     "id": 86,
-    "question": "Er kommt ______ Indien.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Monat.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Monat' is the direct object."
   },
   {
     "id": 87,
-    "question": "Ich wohne ______ München.",
+    "category": "Nominativ Case",
+    "question": "______ Jahr ist sehr wichtig.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "Der",
+    "explanation": "'Jahr' is the subject, so it is in Nominativ case."
   },
   {
     "id": 88,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Morgen ein Geschenk.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Morgen' takes the Dativ article here."
   },
   {
     "id": 89,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Abend.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Abend' is the direct object."
   },
   {
     "id": 90,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Nominativ Case",
+    "question": "______ Nacht ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "Der",
+    "explanation": "'Nacht' is the subject, so it is in Nominativ case."
   },
   {
     "id": 91,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Wasser ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Wasser' takes the Dativ article here."
   },
   {
     "id": 92,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Kaffee.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Kaffee' is the direct object."
   },
   {
     "id": 93,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Nominativ Case",
+    "question": "______ Tee ist sehr wichtig.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "Der",
+    "explanation": "'Tee' is the subject, so it is in Nominativ case."
   },
   {
     "id": 94,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Milch ein Geschenk.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Milch' takes the Dativ article here."
   },
   {
     "id": 95,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Saft.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Saft' is the direct object."
   },
   {
     "id": 96,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Nominativ Case",
+    "question": "______ Brot ist sehr wichtig.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "Der",
+    "explanation": "'Brot' is the subject, so it is in Nominativ case."
   },
   {
     "id": 97,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Reis ein Geschenk.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Reis' takes the Dativ article here."
   },
   {
     "id": 98,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Nudeln.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Nudeln' is the direct object."
   },
   {
     "id": 99,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Nominativ Case",
+    "question": "______ Kuchen ist sehr wichtig.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "Der",
+    "explanation": "'Kuchen' is the subject, so it is in Nominativ case."
   },
   {
     "id": 100,
-    "question": "Wir haben im Garten ______.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Obst ein Geschenk.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Obst' takes the Dativ article here."
   },
   {
     "id": 101,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Gemüse.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Gemüse' is the direct object."
   },
   {
     "id": 102,
-    "question": "______ Katze schläft.",
+    "category": "Nominativ Case",
+    "question": "______ Salat ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "Der",
+    "explanation": "'Salat' is the subject, so it is in Nominativ case."
   },
   {
     "id": 103,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Suppe ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Suppe' takes the Dativ article here."
   },
   {
     "id": 104,
-    "question": "Er liest ______ Buch.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Fleisch.",
     "options": [
       "der",
       "dem",
-      "das",
+      "den",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Fleisch' is the direct object."
   },
   {
     "id": 105,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Nominativ Case",
+    "question": "______ Fisch ist sehr wichtig.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "Der",
+    "explanation": "'Fisch' is the subject, so it is in Nominativ case."
   },
   {
     "id": 106,
-    "question": "Ich bin ______ Student.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Ei ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Ei' takes the Dativ article here."
   },
   {
     "id": 107,
-    "question": "Sie hat ______ Auto.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Käse.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Käse' is the direct object."
   },
   {
     "id": 108,
-    "question": "______ Haus ist alt.",
+    "category": "Nominativ Case",
+    "question": "______ Butter ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "Der",
+    "explanation": "'Butter' is the subject, so it is in Nominativ case."
   },
   {
     "id": 109,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Zucker ein Geschenk.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Zucker' takes the Dativ article here."
   },
   {
     "id": 110,
-    "question": "Wir essen ______ Reis.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Honig.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Honig' is the direct object."
   },
   {
     "id": 111,
-    "question": "Er kommt ______ Indien.",
+    "category": "Nominativ Case",
+    "question": "______ Straße ist sehr wichtig.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "Der",
+    "explanation": "'Straße' is the subject, so it is in Nominativ case."
   },
   {
     "id": 112,
-    "question": "Ich wohne ______ München.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Platz ein Geschenk.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Platz' takes the Dativ article here."
   },
   {
     "id": 113,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Park.",
     "options": [
       "der",
       "dem",
@@ -1465,12 +1466,12 @@
       "des"
     ],
     "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "explanation": "The verb takes Akkusativ. 'Park' is the direct object."
   },
   {
     "id": 114,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Nominativ Case",
+    "question": "______ Garten ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
@@ -1478,259 +1479,259 @@
       "Den"
     ],
     "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "explanation": "'Garten' is the subject, so it is in Nominativ case."
   },
   {
     "id": 115,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Brücke ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Brücke' takes the Dativ article here."
   },
   {
     "id": 116,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Hausaufgabe.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Hausaufgabe' is the direct object."
   },
   {
     "id": 117,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Nominativ Case",
+    "question": "______ Prüfung ist sehr wichtig.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "Der",
+    "explanation": "'Prüfung' is the subject, so it is in Nominativ case."
   },
   {
     "id": 118,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Note ein Geschenk.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Note' takes the Dativ article here."
   },
   {
     "id": 119,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Unterricht.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Unterricht' is the direct object."
   },
   {
     "id": 120,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Nominativ Case",
+    "question": "______ Sprache ist sehr wichtig.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "Der",
+    "explanation": "'Sprache' is the subject, so it is in Nominativ case."
   },
   {
     "id": 121,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Wort ein Geschenk.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Wort' takes the Dativ article here."
   },
   {
     "id": 122,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Satz.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Satz' is the direct object."
   },
   {
     "id": 123,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Nominativ Case",
+    "question": "______ Text ist sehr wichtig.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "Der",
+    "explanation": "'Text' is the subject, so it is in Nominativ case."
   },
   {
     "id": 124,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Bedeutung ein Geschenk.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bedeutung' takes the Dativ article here."
   },
   {
     "id": 125,
-    "question": "Wir haben im Garten ______.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Übung.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Übung' is the direct object."
   },
   {
     "id": 126,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Nominativ Case",
+    "question": "______ Beispiel ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "Der",
+    "explanation": "'Beispiel' is the subject, so it is in Nominativ case."
   },
   {
     "id": 127,
-    "question": "______ Katze schläft.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Film ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Film' takes the Dativ article here."
   },
   {
     "id": 128,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Musik.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Musik' is the direct object."
   },
   {
     "id": 129,
-    "question": "Er liest ______ Buch.",
+    "category": "Nominativ Case",
+    "question": "______ Lied ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "das",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "Der",
+    "explanation": "'Lied' is the subject, so it is in Nominativ case."
   },
   {
     "id": 130,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Sport ein Geschenk.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Sport' takes the Dativ article here."
   },
   {
     "id": 131,
-    "question": "Ich bin ______ Student.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Spiel.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Spiel' is the direct object."
   },
   {
     "id": 132,
-    "question": "Sie hat ______ Auto.",
+    "category": "Nominativ Case",
+    "question": "______ Training ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "Der",
+    "explanation": "'Training' is the subject, so it is in Nominativ case."
   },
   {
     "id": 133,
-    "question": "______ Haus ist alt.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Mannschaft ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Mannschaft' takes the Dativ article here."
   },
   {
     "id": 134,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Spieler.",
     "options": [
       "der",
       "dem",
@@ -1738,701 +1739,701 @@
       "des"
     ],
     "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "explanation": "The verb takes Akkusativ. 'Spieler' is the direct object."
   },
   {
     "id": 135,
-    "question": "Wir essen ______ Reis.",
+    "category": "Nominativ Case",
+    "question": "______ Sieg ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "Der",
+    "explanation": "'Sieg' is the subject, so it is in Nominativ case."
   },
   {
     "id": 136,
-    "question": "Er kommt ______ Indien.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Tor ein Geschenk.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Tor' takes the Dativ article here."
   },
   {
     "id": 137,
-    "question": "Ich wohne ______ München.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Ball.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Ball' is the direct object."
   },
   {
     "id": 138,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Nominativ Case",
+    "question": "______ Körper ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "Der",
+    "explanation": "'Körper' is the subject, so it is in Nominativ case."
   },
   {
     "id": 139,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Kopf ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kopf' takes the Dativ article here."
   },
   {
     "id": 140,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Hand.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Hand' is the direct object."
   },
   {
     "id": 141,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Nominativ Case",
+    "question": "______ Fuß ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "Der",
+    "explanation": "'Fuß' is the subject, so it is in Nominativ case."
   },
   {
     "id": 142,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Auge ein Geschenk.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Auge' takes the Dativ article here."
   },
   {
     "id": 143,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Ohr.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Ohr' is the direct object."
   },
   {
     "id": 144,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Nominativ Case",
+    "question": "______ Nase ist sehr wichtig.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "Der",
+    "explanation": "'Nase' is the subject, so it is in Nominativ case."
   },
   {
     "id": 145,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Mund ein Geschenk.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Mund' takes the Dativ article here."
   },
   {
     "id": 146,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Herz.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Herz' is the direct object."
   },
   {
     "id": 147,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Nominativ Case",
+    "question": "______ Gesundheit ist sehr wichtig.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "Der",
+    "explanation": "'Gesundheit' is the subject, so it is in Nominativ case."
   },
   {
     "id": 148,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Krankheit ein Geschenk.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Krankheit' takes the Dativ article here."
   },
   {
     "id": 149,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Arztbesuch.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Arztbesuch' is the direct object."
   },
   {
     "id": 150,
-    "question": "Wir haben im Garten ______.",
+    "category": "Nominativ Case",
+    "question": "______ Medikament ist sehr wichtig.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "Der",
+    "explanation": "'Medikament' is the subject, so it is in Nominativ case."
   },
   {
     "id": 151,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Apotheke ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Apotheke' takes the Dativ article here."
   },
   {
     "id": 152,
-    "question": "______ Katze schläft.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Krankenhaus.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Krankenhaus' is the direct object."
   },
   {
     "id": 153,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Nominativ Case",
+    "question": "______ Hilfe ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "Der",
+    "explanation": "'Hilfe' is the subject, so it is in Nominativ case."
   },
   {
     "id": 154,
-    "question": "Er liest ______ Buch.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Notfall ein Geschenk.",
     "options": [
       "der",
+      "den",
       "dem",
-      "das",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Notfall' takes the Dativ article here."
   },
   {
     "id": 155,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Polizei.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Polizei' is the direct object."
   },
   {
     "id": 156,
-    "question": "Ich bin ______ Student.",
+    "category": "Nominativ Case",
+    "question": "______ Feuerwehr ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "Der",
+    "explanation": "'Feuerwehr' is the subject, so it is in Nominativ case."
   },
   {
     "id": 157,
-    "question": "Sie hat ______ Auto.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Regel ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Regel' takes the Dativ article here."
   },
   {
     "id": 158,
-    "question": "______ Haus ist alt.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Gesetz.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Gesetz' is the direct object."
   },
   {
     "id": 159,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Nominativ Case",
+    "question": "______ Formular ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "den",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "Der",
+    "explanation": "'Formular' is the subject, so it is in Nominativ case."
   },
   {
     "id": 160,
-    "question": "Wir essen ______ Reis.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Antrag ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Antrag' takes the Dativ article here."
   },
   {
     "id": 161,
-    "question": "Er kommt ______ Indien.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Brief.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Brief' is the direct object."
   },
   {
     "id": 162,
-    "question": "Ich wohne ______ München.",
+    "category": "Nominativ Case",
+    "question": "______ E-Mail ist sehr wichtig.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "Der",
+    "explanation": "'E-Mail' is the subject, so it is in Nominativ case."
   },
   {
     "id": 163,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Nachricht ein Geschenk.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Nachricht' takes the Dativ article here."
   },
   {
     "id": 164,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Antwortzeit.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Antwortzeit' is the direct object."
   },
   {
     "id": 165,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Nominativ Case",
+    "question": "______ Internet ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "Der",
+    "explanation": "'Internet' is the subject, so it is in Nominativ case."
   },
   {
     "id": 166,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Webseite ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Webseite' takes the Dativ article here."
   },
   {
     "id": 167,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Passwort.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Passwort' is the direct object."
   },
   {
     "id": 168,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Nominativ Case",
+    "question": "______ Konto ist sehr wichtig.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "Der",
+    "explanation": "'Konto' is the subject, so it is in Nominativ case."
   },
   {
     "id": 169,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Preis ein Geschenk.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Preis' takes the Dativ article here."
   },
   {
     "id": 170,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Rabatt.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Rabatt' is the direct object."
   },
   {
     "id": 171,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Nominativ Case",
+    "question": "______ Ticketpreis ist sehr wichtig.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "Der",
+    "explanation": "'Ticketpreis' is the subject, so it is in Nominativ case."
   },
   {
     "id": 172,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Quittung ein Geschenk.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Quittung' takes the Dativ article here."
   },
   {
     "id": 173,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Rechnung.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Rechnung' is the direct object."
   },
   {
     "id": 174,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Nominativ Case",
+    "question": "______ Geld ist sehr wichtig.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "Der",
+    "explanation": "'Geld' is the subject, so it is in Nominativ case."
   },
   {
     "id": 175,
-    "question": "Wir haben im Garten ______.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Euro ein Geschenk.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Euro' takes the Dativ article here."
   },
   {
     "id": 176,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Karte.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Karte' is the direct object."
   },
   {
     "id": 177,
-    "question": "______ Katze schläft.",
+    "category": "Nominativ Case",
+    "question": "______ Bank ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "Der",
+    "explanation": "'Bank' is the subject, so it is in Nominativ case."
   },
   {
     "id": 178,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Kredit ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kredit' takes the Dativ article here."
   },
   {
     "id": 179,
-    "question": "Er liest ______ Buch.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Miete.",
     "options": [
       "der",
       "dem",
-      "das",
+      "den",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Miete' is the direct object."
   },
   {
     "id": 180,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Nominativ Case",
+    "question": "______ Vertrag ist sehr wichtig.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "Der",
+    "explanation": "'Vertrag' is the subject, so it is in Nominativ case."
   },
   {
     "id": 181,
-    "question": "Ich bin ______ Student.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Wohnung ein Geschenk.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Wohnung' takes the Dativ article here."
   },
   {
     "id": 182,
-    "question": "Sie hat ______ Auto.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Möbel.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Möbel' is the direct object."
   },
   {
     "id": 183,
-    "question": "______ Haus ist alt.",
+    "category": "Nominativ Case",
+    "question": "______ Sofa ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
       "Das",
       "Den"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "Der",
+    "explanation": "'Sofa' is the subject, so it is in Nominativ case."
   },
   {
     "id": 184,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Bett ein Geschenk.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bett' takes the Dativ article here."
   },
   {
     "id": 185,
-    "question": "Wir essen ______ Reis.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Schrank.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Schrank' is the direct object."
   },
   {
     "id": 186,
-    "question": "Er kommt ______ Indien.",
+    "category": "Nominativ Case",
+    "question": "______ Lampe ist sehr wichtig.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "Der",
+    "explanation": "'Lampe' is the subject, so it is in Nominativ case."
   },
   {
     "id": 187,
-    "question": "Ich wohne ______ München.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Teppich ein Geschenk.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Teppich' takes the Dativ article here."
   },
   {
     "id": 188,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Spiegel.",
     "options": [
       "der",
       "dem",
@@ -2440,12 +2441,12 @@
       "des"
     ],
     "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "explanation": "The verb takes Akkusativ. 'Spiegel' is the direct object."
   },
   {
     "id": 189,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Nominativ Case",
+    "question": "______ Dusche ist sehr wichtig.",
     "options": [
       "Der",
       "Die",
@@ -2453,259 +2454,259 @@
       "Den"
     ],
     "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "explanation": "'Dusche' is the subject, so it is in Nominativ case."
   },
   {
     "id": 190,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Bad ein Geschenk.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bad' takes the Dativ article here."
   },
   {
     "id": 191,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Akkusativ Case",
+    "question": "Ich finde ______ Wetter.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Wetter' is the direct object."
   },
   {
     "id": 192,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Nominativ Case",
+    "question": "______ Regen ist sehr wichtig.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "Der",
+    "explanation": "'Regen' is the subject, so it is in Nominativ case."
   },
   {
     "id": 193,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Schnee ein Geschenk.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Schnee' takes the Dativ article here."
   },
   {
     "id": 194,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Akkusativ Case",
+    "question": "Ich höre ______ Wind.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Wind' is the direct object."
   },
   {
     "id": 195,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Nominativ Case",
+    "question": "______ Sonne ist sehr wichtig.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "Der",
+    "explanation": "'Sonne' is the subject, so it is in Nominativ case."
   },
   {
     "id": 196,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Temperatur ein Geschenk.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Temperatur' takes the Dativ article here."
   },
   {
     "id": 197,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Akkusativ Case",
+    "question": "Ich kaufe ______ Sommer.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Sommer' is the direct object."
   },
   {
     "id": 198,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Nominativ Case",
+    "question": "______ Winter ist sehr wichtig.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "Der",
+    "explanation": "'Winter' is the subject, so it is in Nominativ case."
   },
   {
     "id": 199,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Frühling ein Geschenk.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Frühling' takes the Dativ article here."
   },
   {
     "id": 200,
-    "question": "Wir haben im Garten ______.",
+    "category": "Akkusativ Case",
+    "question": "Ich lese ______ Herbst.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Herbst' is the direct object."
   },
   {
     "id": 201,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Nominativ Case",
+    "question": "______ Natur ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "Der",
+    "explanation": "'Natur' is the subject, so it is in Nominativ case."
   },
   {
     "id": 202,
-    "question": "______ Katze schläft.",
+    "category": "Dativ Case",
+    "question": "Ich empfehle ______ Berg ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Berg' takes the Dativ article here."
   },
   {
     "id": 203,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Akkusativ Case",
+    "question": "Ich sehe ______ Fluss.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Fluss' is the direct object."
   },
   {
     "id": 204,
-    "question": "Er liest ______ Buch.",
+    "category": "Nominativ Case",
+    "question": "______ Meer ist sehr wichtig.",
     "options": [
-      "der",
-      "dem",
-      "das",
-      "des"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "Der",
+    "explanation": "'Meer' is the subject, so it is in Nominativ case."
   },
   {
     "id": 205,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ See ein Geschenk.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'See' takes the Dativ article here."
   },
   {
     "id": 206,
-    "question": "Ich bin ______ Student.",
+    "category": "Akkusativ Case",
+    "question": "Ich besuche ______ Wald.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "dem",
+      "den",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "den",
+    "explanation": "The verb takes Akkusativ. 'Wald' is the direct object."
   },
   {
     "id": 207,
-    "question": "Sie hat ______ Auto.",
+    "category": "Nominativ Case",
+    "question": "______ Baumhaus ist sehr wichtig.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "Der",
+    "explanation": "'Baumhaus' is the subject, so it is in Nominativ case."
   },
   {
     "id": 208,
-    "question": "______ Haus ist alt.",
+    "category": "Dativ Case",
+    "question": "Ich leihe ______ Insel ein Geschenk.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Insel' takes the Dativ article here."
   },
   {
     "id": 209,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Akkusativ Case",
+    "question": "Ich treffe ______ Strand.",
     "options": [
       "der",
       "dem",
@@ -2713,1190 +2714,1189 @@
       "des"
     ],
     "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "explanation": "The verb takes Akkusativ. 'Strand' is the direct object."
   },
   {
     "id": 210,
-    "question": "Wir essen ______ Reis.",
+    "category": "Nominativ Case",
+    "question": "______ Wüste ist sehr wichtig.",
     "options": [
-      "der",
-      "die",
-      "das",
-      "den"
+      "Der",
+      "Die",
+      "Das",
+      "Den"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "Der",
+    "explanation": "'Wüste' is the subject, so it is in Nominativ case."
   },
   {
     "id": 211,
-    "question": "Er kommt ______ Indien.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Bericht die Informationen.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bericht' is the indirect object."
   },
   {
     "id": 212,
-    "question": "Ich wohne ______ München.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Vortrag die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Vortrag' is the indirect object."
   },
   {
     "id": 213,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Seminar die Informationen.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Seminar' is the indirect object."
   },
   {
     "id": 214,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Workshop die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Workshop' is the indirect object."
   },
   {
     "id": 215,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Kurs die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kurs' is the indirect object."
   },
   {
     "id": 216,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Dozent die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Dozent' is the indirect object."
   },
   {
     "id": 217,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Professor die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Professor' is the indirect object."
   },
   {
     "id": 218,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Assistent die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Assistent' is the indirect object."
   },
   {
     "id": 219,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Bibliothek die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bibliothek' is the indirect object."
   },
   {
     "id": 220,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Buchhandlung die Informationen.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Buchhandlung' is the indirect object."
   },
   {
     "id": 221,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Kino die Informationen.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kino' is the indirect object."
   },
   {
     "id": 222,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Theater die Informationen.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Theater' is the indirect object."
   },
   {
     "id": 223,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Museum die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Museum' is the indirect object."
   },
   {
     "id": 224,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Ausstellung die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Ausstellung' is the indirect object."
   },
   {
     "id": 225,
-    "question": "Wir haben im Garten ______.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Konzert die Informationen.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Konzert' is the indirect object."
   },
   {
     "id": 226,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Festival die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Festival' is the indirect object."
   },
   {
     "id": 227,
-    "question": "______ Katze schläft.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Feier die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Feier' is the indirect object."
   },
   {
     "id": 228,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Party die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Party' is the indirect object."
   },
   {
     "id": 229,
-    "question": "Er liest ______ Buch.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Geburtstag die Informationen.",
     "options": [
       "der",
+      "den",
       "dem",
-      "das",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Geburtstag' is the indirect object."
   },
   {
     "id": 230,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Hochzeit die Informationen.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Hochzeit' is the indirect object."
   },
   {
     "id": 231,
-    "question": "Ich bin ______ Student.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Familie die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Familie' is the indirect object."
   },
   {
     "id": 232,
-    "question": "Sie hat ______ Auto.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Kindheit die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kindheit' is the indirect object."
   },
   {
     "id": 233,
-    "question": "______ Haus ist alt.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Jugend die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Jugend' is the indirect object."
   },
   {
     "id": 234,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Erfahrung die Informationen.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Erfahrung' is the indirect object."
   },
   {
     "id": 235,
-    "question": "Wir essen ______ Reis.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Erinnerung die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Erinnerung' is the indirect object."
   },
   {
     "id": 236,
-    "question": "Er kommt ______ Indien.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Geschichte die Informationen.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Geschichte' is the indirect object."
   },
   {
     "id": 237,
-    "question": "Ich wohne ______ München.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Zukunft die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Zukunft' is the indirect object."
   },
   {
     "id": 238,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Vergangenheit die Informationen.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Vergangenheit' is the indirect object."
   },
   {
     "id": 239,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Gegenwart die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Gegenwart' is the indirect object."
   },
   {
     "id": 240,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Chance die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Chance' is the indirect object."
   },
   {
     "id": 241,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Risiko die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Risiko' is the indirect object."
   },
   {
     "id": 242,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Fehler die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Fehler' is the indirect object."
   },
   {
     "id": 243,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Ergebnis die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Ergebnis' is the indirect object."
   },
   {
     "id": 244,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Leistung die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Leistung' is the indirect object."
   },
   {
     "id": 245,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Fortschritt die Informationen.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Fortschritt' is the indirect object."
   },
   {
     "id": 246,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Entwicklung die Informationen.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Entwicklung' is the indirect object."
   },
   {
     "id": 247,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Technik die Informationen.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Technik' is the indirect object."
   },
   {
     "id": 248,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Maschine die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Maschine' is the indirect object."
   },
   {
     "id": 249,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Gerät die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Gerät' is the indirect object."
   },
   {
     "id": 250,
-    "question": "Wir haben im Garten ______.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Werkzeug die Informationen.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Werkzeug' is the indirect object."
   },
   {
     "id": 251,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Industrie die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Industrie' is the indirect object."
   },
   {
     "id": 252,
-    "question": "______ Katze schläft.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Produktion die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Produktion' is the indirect object."
   },
   {
     "id": 253,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Qualität die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Qualität' is the indirect object."
   },
   {
     "id": 254,
-    "question": "Er liest ______ Buch.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Service die Informationen.",
     "options": [
       "der",
+      "den",
       "dem",
-      "das",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Service' is the indirect object."
   },
   {
     "id": 255,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Kunde die Informationen.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kunde' is the indirect object."
   },
   {
     "id": 256,
-    "question": "Ich bin ______ Student.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Bestellung die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bestellung' is the indirect object."
   },
   {
     "id": 257,
-    "question": "Sie hat ______ Auto.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Lieferung die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Lieferung' is the indirect object."
   },
   {
     "id": 258,
-    "question": "______ Haus ist alt.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Paket die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Paket' is the indirect object."
   },
   {
     "id": 259,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Sendung die Informationen.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Sendung' is the indirect object."
   },
   {
     "id": 260,
-    "question": "Wir essen ______ Reis.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Adresse die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Adresse' is the indirect object."
   },
   {
     "id": 261,
-    "question": "Er kommt ______ Indien.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Stadtplan die Informationen.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Stadtplan' is the indirect object."
   },
   {
     "id": 262,
-    "question": "Ich wohne ______ München.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Haltestelle die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Haltestelle' is the indirect object."
   },
   {
     "id": 263,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Fahrkarte die Informationen.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Fahrkarte' is the indirect object."
   },
   {
     "id": 264,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Zeitplan die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Zeitplan' is the indirect object."
   },
   {
     "id": 265,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Abfahrt die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Abfahrt' is the indirect object."
   },
   {
     "id": 266,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Ankunft die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Ankunft' is the indirect object."
   },
   {
     "id": 267,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Verspätung die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Verspätung' is the indirect object."
   },
   {
     "id": 268,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Umstieg die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Umstieg' is the indirect object."
   },
   {
     "id": 269,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Gleis die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Gleis' is the indirect object."
   },
   {
     "id": 270,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Bahnsteig die Informationen.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bahnsteig' is the indirect object."
   },
   {
     "id": 271,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Ausweis die Informationen.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Ausweis' is the indirect object."
   },
   {
     "id": 272,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Pass die Informationen.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Pass' is the indirect object."
   },
   {
     "id": 273,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Visum die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Visum' is the indirect object."
   },
   {
     "id": 274,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Dokument die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Dokument' is the indirect object."
   },
   {
     "id": 275,
-    "question": "Wir haben im Garten ______.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Kopie die Informationen.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kopie' is the indirect object."
   },
   {
     "id": 276,
-    "question": "Ich trinke ______ Wasser.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Unterschrift die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "'Wasser' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Unterschrift' is the indirect object."
   },
   {
     "id": 277,
-    "question": "______ Katze schläft.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Form die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Die",
-    "category": "Artikel",
-    "explanation": "'Katze' is feminine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Form' is the indirect object."
   },
   {
     "id": 278,
-    "question": "Ich kaufe ______ Brot.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Feld die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "Direct object → Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Feld' is the indirect object."
   },
   {
     "id": 279,
-    "question": "Er liest ______ Buch.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Zeile die Informationen.",
     "options": [
       "der",
+      "den",
       "dem",
-      "das",
       "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'lesen' needs Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Zeile' is the indirect object."
   },
   {
     "id": 280,
-    "question": "Wir gehen ______ Schule.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Absatz die Informationen.",
     "options": [
-      "zu",
-      "nach",
-      "in",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "zu",
-    "category": "Präposition",
-    "explanation": "'zu' is used for direction."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Absatz' is the indirect object."
   },
   {
     "id": 281,
-    "question": "Ich bin ______ Student.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Kommentar die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Student' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kommentar' is the indirect object."
   },
   {
     "id": 282,
-    "question": "Sie hat ______ Auto.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Bewertung die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "ein",
-    "category": "Artikel",
-    "explanation": "'Auto' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Bewertung' is the indirect object."
   },
   {
     "id": 283,
-    "question": "______ Haus ist alt.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Meinung die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Das",
-    "category": "Artikel",
-    "explanation": "'Haus' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Meinung' is the indirect object."
   },
   {
     "id": 284,
-    "question": "Ich sehe ______ Lehrer.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Diskussion die Informationen.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Diskussion' is the indirect object."
   },
   {
     "id": 285,
-    "question": "Wir essen ______ Reis.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Thema die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Akkusativ",
-    "explanation": "'Reis' is neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Thema' is the indirect object."
   },
   {
     "id": 286,
-    "question": "Er kommt ______ Indien.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Titel die Informationen.",
     "options": [
-      "aus",
-      "nach",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "aus",
-    "category": "Präposition",
-    "explanation": "'aus' shows origin."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Titel' is the indirect object."
   },
   {
     "id": 287,
-    "question": "Ich wohne ______ München.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Kapitel die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "nach",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Cities use 'in'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kapitel' is the indirect object."
   },
   {
     "id": 288,
-    "question": "Sie schreibt ______ Brief.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Abschnitt die Informationen.",
     "options": [
       "der",
-      "dem",
       "den",
+      "dem",
       "des"
     ],
-    "answer": "den",
-    "category": "Akkusativ",
-    "explanation": "Direct object."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Abschnitt' is the indirect object."
   },
   {
     "id": 289,
-    "question": "______ Mann arbeitet hier.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Inhalt die Informationen.",
     "options": [
-      "Der",
-      "Die",
-      "Das",
-      "Den"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "Der",
-    "category": "Artikel",
-    "explanation": "'Mann' is masculine."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Inhalt' is the indirect object."
   },
   {
     "id": 290,
-    "question": "Ich lerne ______ Deutsch.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Zusammenfassung die Informationen.",
     "options": [
       "der",
-      "die",
-      "das",
-      "den"
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "das",
-    "category": "Artikel",
-    "explanation": "Language names are neuter."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Zusammenfassung' is the indirect object."
   },
   {
     "id": 291,
-    "question": "Er hat ______ Film gesehen.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Aufgabe die Informationen.",
     "options": [
-      "ein",
-      "eine",
-      "einen",
-      "einem"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "einen",
-    "category": "Akkusativ",
-    "explanation": "Masculine Akkusativ with 'ein'."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Aufgabe' is the indirect object."
   },
   {
     "id": 292,
-    "question": "Wir sind gestern ______ Park gegangen.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Pflicht die Informationen.",
     "options": [
-      "in",
-      "auf",
-      "zu",
-      "bei"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "in",
-    "category": "Präposition",
-    "explanation": "Two-way preposition (location)."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Pflicht' is the indirect object."
   },
   {
     "id": 293,
-    "question": "Sie hat lange ______ Prüfung gelernt.",
+    "category": "Dativ Case",
+    "question": "Ich sehe ______ Recht die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "'lernen für' is common."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Recht' is the indirect object."
   },
   {
     "id": 294,
-    "question": "Das Wetter ist heute ______ als gestern.",
+    "category": "Dativ Case",
+    "question": "Ich kaufe ______ Verantwortung die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "best",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "besser",
-    "category": "Komparativ",
-    "explanation": "Comparative adjective."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Verantwortung' is the indirect object."
   },
   {
     "id": 295,
-    "question": "Ich ______ morgen früh auf.",
+    "category": "Dativ Case",
+    "question": "Ich finde ______ Respekt die Informationen.",
     "options": [
-      "stehe",
-      "stehen",
-      "stand",
-      "gestanden"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "stehe",
-    "category": "Trennbares Verb",
-    "explanation": "Present tense."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Respekt' is the indirect object."
   },
   {
     "id": 296,
-    "question": "Er ist ______ dem Bus gefahren.",
+    "category": "Dativ Case",
+    "question": "Ich gebe ______ Vertrauen die Informationen.",
     "options": [
-      "mit",
-      "bei",
-      "von",
-      "zu"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "mit",
-    "category": "Präposition",
-    "explanation": "'mit' indicates transport."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Vertrauen' is the indirect object."
   },
   {
     "id": 297,
-    "question": "Sie trägt ein ______ Kleid.",
+    "category": "Dativ Case",
+    "question": "Ich schicke ______ Freundschaft die Informationen.",
     "options": [
-      "rot",
-      "rote",
-      "roten",
-      "rotes"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "rotes",
-    "category": "Adjektivdeklination",
-    "explanation": "Neuter noun + ein."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Freundschaft' is the indirect object."
   },
   {
     "id": 298,
-    "question": "Ich interessiere mich ______ Musik.",
+    "category": "Dativ Case",
+    "question": "Ich bringe ______ Beziehung die Informationen.",
     "options": [
-      "für",
-      "an",
-      "mit",
-      "auf"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "für",
-    "category": "Präposition",
-    "explanation": "Fixed verb-preposition."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Beziehung' is the indirect object."
   },
   {
     "id": 299,
-    "question": "Das ist der ______ Tag meines Lebens.",
+    "category": "Dativ Case",
+    "question": "Ich zeige ______ Kontakt die Informationen.",
     "options": [
-      "gut",
-      "besser",
-      "beste",
-      "am besten"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "beste",
-    "category": "Superlativ",
-    "explanation": "Attributive superlative."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Kontakt' is the indirect object."
   },
   {
     "id": 300,
-    "question": "Wir haben im Garten ______.",
+    "category": "Dativ Case",
+    "question": "Ich erkläre ______ Treffen die Informationen.",
     "options": [
-      "gearbeitet",
-      "arbeiten",
-      "arbeitest",
-      "arbeite"
+      "der",
+      "den",
+      "dem",
+      "des"
     ],
-    "answer": "gearbeitet",
-    "category": "Perfekt",
-    "explanation": "Past participle."
+    "answer": "dem",
+    "explanation": "The verb requires Dativ. 'Treffen' is the indirect object."
   }
 ]
