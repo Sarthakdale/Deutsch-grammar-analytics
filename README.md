@@ -1,5 +1,16 @@
 # 🇩🇪 GermanPro: Adaptive Learning Platform
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Status](https://img.shields.io/badge/status-Live-success.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+> **Current Version:** `v1.0.0` (See [CHANGELOG.md](./CHANGELOG.md) for history)
+> **Live Demo:** [sarthak-german-analytics.netlify.app](https://sarthak-german-analytics.netlify.app/)
+
+---
+
+# 🇩🇪 GermanPro: Adaptive Learning Platform
+
 > **Product Vision:** *"To create an intelligent, data-driven language acquisition tool that identifies and corrects grammatical weaknesses through real-time analytics."*
 
 ---
