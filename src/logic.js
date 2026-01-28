@@ -3,17 +3,16 @@ let fullData = { grammar: [], vocabulary: [] };
 let currentMode = 'grammar';
 let currentQuestions = [];
 let currentIndex = 0;
-let score = 0;         // Session Score
-let streak = 0;        // Current Streak
+let score = 0;
+let streak = 0;
 
-// Session Analytics (Resets every 10 questions)
 let sessionAnalytics = {}; 
 
-// Lifetime Analytics (Loaded from Browser Memory)
+// Load Memory
 let lifetimeData = JSON.parse(localStorage.getItem('germanPro_storage')) || {
     totalQuestions: 0,
     totalErrors: 0,
-    categoryStats: {} // { "Dativ": { attempts: 10, correct: 4 } }
+    categoryStats: {} 
 };
 
 // --- 1. SETUP ---
@@ -23,33 +22,57 @@ async function loadQuestions() {
             fetch('data/grammar.json'),
             fetch('data/vocabulary.json')
         ]);
-
         fullData.grammar = await grammarRes.json();
         fullData.vocabulary = await vocabRes.json();
         
-        // Restore Streak from memory if available
         if (localStorage.getItem('germanPro_streak')) {
             streak = parseInt(localStorage.getItem('germanPro_streak'));
             updateStats();
         }
-
         switchMode('grammar'); 
-    } catch (error) {
-        console.error(error);
-    }
+    } catch (error) { console.error(error); }
 }
 
-// --- 2. SWITCH MODES ---
+// --- 2. THE SMART ALGORITHM (CORE UPGRADE) ---
 function switchMode(mode) {
     currentMode = mode;
     const allQuestions = fullData[mode];
-    // Shuffle and slice 10
-    const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-    currentQuestions = shuffled.slice(0, 10);
+    
+    // A. Identify Weak Categories (Accuracy < 50%)
+    let weakCategories = [];
+    for (const [cat, stats] of Object.entries(lifetimeData.categoryStats)) {
+        if (stats.attempts > 0 && (stats.correct / stats.attempts) < 0.5) {
+            weakCategories.push(cat);
+        }
+    }
 
+    // B. The "Priority Queue" Logic
+    let priorityQuestions = [];
+    let standardQuestions = [];
+
+    if (weakCategories.length > 0) {
+        // If user has weaknesses, find matching questions
+        priorityQuestions = allQuestions.filter(q => weakCategories.includes(q.category));
+        // Shuffle them and pick top 4 (Focused Review)
+        priorityQuestions = priorityQuestions.sort(() => 0.5 - Math.random()).slice(0, 4);
+    }
+
+    // C. Fill the rest with Random Questions (Discovery)
+    // Filter out the ones we already picked to avoid duplicates
+    const priorityIds = priorityQuestions.map(q => q.id);
+    let remainingPool = allQuestions.filter(q => !priorityIds.includes(q.id));
+    
+    // We need enough to reach 10 total
+    let needed = 10 - priorityQuestions.length;
+    let randomFill = remainingPool.sort(() => 0.5 - Math.random()).slice(0, needed);
+
+    // D. Combine & Final Shuffle
+    currentQuestions = [...priorityQuestions, ...randomFill].sort(() => 0.5 - Math.random());
+
+    // --- Reset Session ---
     currentIndex = 0;
     score = 0; 
-    sessionAnalytics = {}; // Reset SESSION data only
+    sessionAnalytics = {}; 
     
     // UI Updates
     document.querySelectorAll('.nav-item').forEach(btn => {
@@ -57,7 +80,13 @@ function switchMode(mode) {
         if(btn.getAttribute('onclick').includes(mode)) btn.classList.add('active');
     });
     
-    document.getElementById('mode-title').innerText = `${mode.toUpperCase()} (Session: ${currentQuestions.length})`;
+    // SMART HEADER: Tell the user if we are adapting!
+    let titleText = `${mode.toUpperCase()} (Session: ${currentQuestions.length})`;
+    if (priorityQuestions.length > 0) {
+        titleText += " 🔥 Smart Review Active";
+    }
+    document.getElementById('mode-title').innerText = titleText;
+    
     updateStats();
     renderQuestion();
 }
@@ -65,7 +94,7 @@ function switchMode(mode) {
 // --- 3. RENDER UI ---
 function renderQuestion() {
     if (currentIndex >= currentQuestions.length) {
-        saveLifetimeData(); // SAVE DATA before showing report
+        saveLifetimeData();
         showAnalyticsReport(); 
         return;
     }
@@ -95,11 +124,9 @@ function checkAnswer(selected, correct, explanation, category) {
 
     const cat = category || "General";
     
-    // 1. Update SESSION Data
     if (!sessionAnalytics[cat]) sessionAnalytics[cat] = { total: 0, errors: 0 };
     sessionAnalytics[cat].total++;
 
-    // 2. Update LIFETIME Data (In Memory)
     if (!lifetimeData.categoryStats[cat]) lifetimeData.categoryStats[cat] = { attempts: 0, correct: 0 };
     lifetimeData.categoryStats[cat].attempts++;
     lifetimeData.totalQuestions++;
@@ -109,22 +136,17 @@ function checkAnswer(selected, correct, explanation, category) {
         feedback.innerText = "Correct!";
         score += 10;
         streak++;
-        
-        lifetimeData.categoryStats[cat].correct++; // Update lifetime correct
-        
+        lifetimeData.categoryStats[cat].correct++;
         setTimeout(nextQuestion, 1000);
     } else {
         feedback.className = "feedback error";
         feedback.innerText = `Wrong. ${explanation}`;
         streak = 0;
-        
-        sessionAnalytics[cat].errors++; // Session error
-        lifetimeData.totalErrors++;     // Lifetime error
-        
+        sessionAnalytics[cat].errors++;
+        lifetimeData.totalErrors++;
         document.getElementById("next-btn").style.display = "block";
     }
     
-    // Save Streak immediately (so they don't lose it if they refresh)
     localStorage.setItem('germanPro_streak', streak);
     feedback.style.display = "block";
     updateStats();
@@ -140,28 +162,30 @@ function updateStats() {
     document.getElementById("streak").innerText = streak;
 }
 
-// --- 5. DATA PERSISTENCE ---
+// --- 5. SAVE DATA ---
 function saveLifetimeData() {
-    // Commit the memory variable to the Browser Database (LocalStorage)
     localStorage.setItem('germanPro_storage', JSON.stringify(lifetimeData));
-    console.log("Data Saved:", lifetimeData);
 }
 
-// --- 6. REPORT CARD (With Lifetime Insights) ---
+// --- 6. REPORT CARD ---
 function showAnalyticsReport() {
     const container = document.querySelector(".container");
     document.getElementById("options-container").style.display = "none";
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-btn").style.display = "none";
-    document.getElementById("question-text").innerText = "Performance Review";
+    
+    // DYNAMIC HEADER
+    let headerText = "Performance Review";
+    if (score === 100) headerText = "🏆 Perfect Session!";
+    else if (score < 50) headerText = "⚠️ Needs Focus";
+    document.getElementById("question-text").innerText = headerText;
 
     let reportHTML = `<div class="report-card">
         <h3>Session Score: ${score}</h3>
         <p style="text-align:center; color: #94a3b8; font-size: 0.9rem; margin-bottom: 20px;">
-            Total Questions Solved (Lifetime): <b style="color:white">${lifetimeData.totalQuestions}</b>
+            Total Solved: <b style="color:white">${lifetimeData.totalQuestions}</b>
         </p>`;
 
-    // Sort by Session Errors
     const sortedCats = Object.keys(sessionAnalytics).sort((a,b) => {
         const rateA = sessionAnalytics[a].errors / sessionAnalytics[a].total;
         const rateB = sessionAnalytics[b].errors / sessionAnalytics[b].total;
@@ -169,14 +193,13 @@ function showAnalyticsReport() {
     });
 
     sortedCats.forEach(cat => {
-        const sData = sessionAnalytics[cat]; // Session Data
-        const lData = lifetimeData.categoryStats[cat]; // Lifetime Data
-
+        const sData = sessionAnalytics[cat];
+        const lData = lifetimeData.categoryStats[cat];
         const sessionErrorRate = Math.round((sData.errors / sData.total) * 100);
         const lifetimeAccuracy = Math.round((lData.correct / lData.attempts) * 100);
         
         let statusColor = sessionErrorRate > 50 ? "#ef4444" : (sessionErrorRate > 0 ? "#f59e0b" : "#22c55e");
-        let statusText = sessionErrorRate > 50 ? "Critical Weakness" : "Mastered";
+        let statusText = sessionErrorRate > 50 ? "Weakness" : "Mastered";
 
         reportHTML += `
             <div class="stat-row">
