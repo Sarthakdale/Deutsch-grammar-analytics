@@ -1,3 +1,9 @@
+// --- AUTHENTICATION CHECK ---
+// If no user profile is found, kick them to login page
+const currentUser = JSON.parse(localStorage.getItem('germanPro_user'));
+if (!currentUser) {
+    window.location.href = 'login.html';
+}
 // --- STATE MANAGEMENT ---
 let fullData = { grammar: [], vocabulary: [] };
 let currentMode = 'grammar';
@@ -223,3 +229,16 @@ function showAnalyticsReport() {
 }
 
 loadQuestions();
+
+// --- AUTH UTILS ---
+function logout() {
+    if(confirm("Are you sure you want to logout? This will clear your session.")) {
+        localStorage.removeItem('germanPro_user'); // Clear user
+        window.location.href = 'login.html';       // Go to login
+    }
+}
+
+// Display Name on Load
+if (currentUser && document.getElementById('user-display-name')) {
+    document.getElementById('user-display-name').innerText = currentUser.name;
+}
