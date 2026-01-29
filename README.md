@@ -112,10 +112,10 @@ We measure success using the following metrics:
 
 | Phase | Feature | Status | Business Value |
 | :--- | :--- | :--- | :--- |
-| **v1.1** | **Cloud Sync** | ✅ Done | Enables cross-device retention & user accounts. |
-| **v1.2** | **AI Voice (TTS)** | ✅ Done | Increases accessibility & auditory learning. |
-| **v1.3** | **Visual Analytics** | 🚧 Next | Data visualization to drive user engagement. |
-| **v2.0** | **Global Leaderboard** | 📅 Planned | Social gamification for viral growth. |
+| **v1.1** | **Cloud Sync** | ✅ Done | Enables cross-device retention. |
+| **v1.2** | **AI Voice (TTS)** | ✅ Done | Increases accessibility. |
+| **v1.3** | **Visual Analytics** | ✅ Done | Drive engagement via data visualization. |
+| **v2.0** | **Global Leaderboard** | 🚧 Next | Social gamification for viral growth. ||
 
 
 ### 📂 File Structure

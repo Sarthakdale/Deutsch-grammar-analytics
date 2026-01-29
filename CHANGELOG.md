@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0] - 2026-01-29 (The Analytics Update)
+**Status:** Live on Production 📊
+**Focus:** Data Visualization & User Insight
+
+### Added
+- **Visual Analytics Engine:** Integrated **Chart.js** to render a real-time "Skill Radar" (Spider Chart) at the end of every session.
+- **Dynamic Gradient UI:** Implemented HTML5 Canvas linear gradients to create a "Cyberpunk" aesthetic consistent with the dark mode theme.
+- **Smart Fallback Logic:** Engineered a "Cold Start" state that displays placeholder data for new users, ensuring the UI never looks broken.
+
+### Changed
+- **Report Card Redesign:** Deprecated the text-based list in favor of a visual-first approach to reduce cognitive load.
+
 ## [1.2.0] - 2026-01-29 (The Voice Update)
 **Status:** Live on Production 🔊
 **Focus:** Accessibility & Multimodal Learning
