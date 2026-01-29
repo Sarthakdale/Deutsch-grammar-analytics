@@ -82,6 +82,11 @@ We measure success using the following metrics:
     * *Why:* Enhances auditory retention without bloating the app with audio files.
     * *UX:* Automatically pauses for "blanks" to simulate natural speech patterns.
 
+7. **🎨 Modern Design System:**
+    * **Glassmorphism:** Premium frosted-glass UI.
+    * **Mobile-First:** Fully responsive layout for recruiting on the go.
+    * **Dark Mode:** Optimized high-contrast theme for long study sessions.
+
 ---
 
 ## 🔮 Future Monetization Strategy

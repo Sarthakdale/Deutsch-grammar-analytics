@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.0] - 2026-01-29 (The Design System Update)
+**Status:** Live on Production 🎨
+**Focus:** UI/UX Polish & Mobile Responsiveness
+
+### Added
+- **Glassmorphism UI:** Implemented `backdrop-filter: blur(12px)` to create a modern, frosted-glass aesthetic for high-contrast readability.
+- **Responsive Grid Layout:** Architected a CSS Grid system that fluidly adapts from Desktop (Sidebar View) to Mobile (Stacked View).
+- **Micro-Interactions:** Added tactile CSS transforms (`translateY`) to buttons, providing physical feedback on user interaction.
+
+### Changed
+- **Color Architecture:** Standardized the palette using CSS Variables (`--primary`, `--bg-dark`) for consistent theming.
+- **Typography:** Migrated to 'Inter' font family for improved legibility on high-DPI screens.
+
 ## [1.3.0] - 2026-01-29 (The Analytics Update)
 **Status:** Live on Production 📊
 **Focus:** Data Visualization & User Insight
