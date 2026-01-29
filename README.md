@@ -1,5 +1,7 @@
 # 🇩🇪 GermanPro: Adaptive Learning Platform
 
+![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
+![Status](https://img.shields.io/badge/status-SaaS_Live-success.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Status](https://img.shields.io/badge/status-Live-success.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -33,6 +35,16 @@ We prioritized **Scalability** and **User Experience** in our architectural deci
 
 | Architectural Decision | Business Value (Why it matters) |
 | :--- | :--- |
+
+### 🛠️ Technical Architecture (v1.1)
+We utilize a **Serverless Architecture** to minimize overhead while maximizing scalability:
+
+* **Frontend:** HTML5, CSS3 (Variables), Vanilla JavaScript (ES Modules).
+* **Authentication:** **Google Firebase Auth** (Identity Management).
+* **Database:** **Cloud Firestore** (NoSQL Real-time Database).
+* **Hosting:** Netlify (Continuous Deployment via Git).
+* **Algorithm:** Weighted Priority Queue (Client-side execution).
+
 | **Modular Data Architecture** <br> *(Dual-JSON System)* | **Scalability:** Allows non-technical teams to add thousands of questions without touching the code base. |
 | **"Midnight Pro" Design** <br> *(CSS Variables + Glassmorphism)* | **Retention:** A premium, distraction-free interface increases "Time-on-Page" and builds brand trust. |
 | **Async Logic Engine** <br> *(Promise.all Fetching)* | **Performance:** Reduces data load times by **50%**, ensuring a seamless experience even as the database grows. |
@@ -62,12 +74,14 @@ We measure success using the following metrics:
 1.  **Retention Rate:** % of users returning within 24 hours.
 2.  **Module Completion:** Drop-off rate analysis (Question 5 vs. Question 10).
 3.  **Error Hotspots:** Identifying questions with `<40%` pass rate for content review.
+4. **☁️ Cloud Sync (SaaS):** Seamlessly saves progress to the cloud. Start learning on your laptop and continue on your mobile device without missing a beat.
 
 ---
 
 ## 🔮 Future Monetization Strategy
 * **Free Tier:** Standard Drills.
 * **Premium Tier:** Heatmap Analytics & "Spaced Repetition" (SRS) Mode.
+* **☁️ Cloud Sync (SaaS):** Seamlessly saves progress to the cloud. Start learning on your laptop and continue on your mobile device without missing a beat.
 
 ---
 
@@ -85,6 +99,14 @@ We measure success using the following metrics:
     2. Injects 4 "Weakness Questions" into the session queue.
     3. Fills the remaining slots with random discovery questions.
 * **Business Value:** Increases learning efficiency by **40%**, driving higher user satisfaction and retention.
+
+## 🗺️ Strategic Roadmap (Future Scope)
+
+| Phase | Feature | Business Value |
+| :--- | :--- | :--- |
+| **v1.2** | **Visual Analytics** | Integrate `Chart.js` to visualize learning curves and increase user engagement time. |
+| **v1.3** | **Global Leaderboard** | Gamify the experience by comparing "Lifetime Scores" to drive competitive retention. |
+| **v2.0** | **Monetization API** | Architecture supports "Premium" content gating for potential SaaS revenue models. |
 
 
 ### 📂 File Structure

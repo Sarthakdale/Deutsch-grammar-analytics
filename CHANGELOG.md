@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.0] - 2026-01-29 (The SaaS Update)
+**Status:** Live on Production ☁️
+**Focus:** User Retention & Data Persistence
+
+### Added
+- **Cloud Authentication (Firebase Auth):** Implemented secure Email/Password identity management to support multi-user environments.
+- **Cross-Device Sync (Firestore):** Migrated data layer from `LocalStorage` (client-side) to **NoSQL Cloud Database**, enabling users to switch devices without losing progress.
+- **Session Continuity:** Users now retain their "Lifetime Stats" (Total Questions Solved) even after logging out.
+
+### Changed
+- **Database Architecture:** Pivot from a decentralized LocalStorage model to a centralized **Cloud-First Architecture** to prepare for future leaderboard features.
+- **Security:** Integrated Firebase SDK with modular imports for optimized bundle size.
+
+### Fixed
+- **Data volatility issue:** Resolved the limitation where clearing browser cache would delete user progress.
+
+---
+
 All notable changes to the **GermanPro Analytics** project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
