@@ -1,21 +1,87 @@
-// --- STATE MANAGEMENT ---
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+import { getFirestore, doc, getDoc, setDoc } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js";
+
+// --- PASTE YOUR FIREBASE CONFIG HERE (Same as login.html) ---
+const firebaseConfig = {
+    apiKey: "AIzaSyA8gPA-J_7MgHfprqUEAlAos8dDvmdUFzM",
+    authDomain: "german-pro-analytics.firebaseapp.com",
+    projectId: "german-pro-analytics",
+    storageBucket: "german-pro-analytics.firebasestorage.app",
+    messagingSenderId: "722098280543",
+    appId: "1:722098280543:web:95c2bf7af446574489a3ea",
+    measurementId: "G-EX5RCHS90Z"
+};
+// -----------------------------------------------------------
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+let currentUser = null;
+
+// --- AUTH CHECKER ---
+onAuthStateChanged(auth, (user) => {
+    if (user) {
+        currentUser = user;
+        document.getElementById('user-display-name').innerText = user.email.split('@')[0]; // Show "sarthak" from email
+        loadUserData(); // Download Cloud Data
+    } else {
+        // No user? Kick to login
+        window.location.href = 'login.html';
+    }
+});
+
+// --- GLOBAL VARIABLES ---
 let fullData = { grammar: [], vocabulary: [] };
 let currentMode = 'grammar';
 let currentQuestions = [];
 let currentIndex = 0;
 let score = 0;
 let streak = 0;
-
 let sessionAnalytics = {}; 
 
-// Load Memory (Smart Review Data)
-let lifetimeData = JSON.parse(localStorage.getItem('germanPro_storage')) || {
-    totalQuestions: 0,
-    totalErrors: 0,
+let lifetimeData = { 
+    totalQuestions: 0, 
+    totalErrors: 0, 
     categoryStats: {} 
 };
 
-// --- 1. SETUP ---
+// --- 1. CLOUD SYNC FUNCTIONS ---
+async function loadUserData() {
+    const docRef = doc(db, "users", currentUser.uid);
+    const docSnap = await getDoc(docRef);
+
+    if (docSnap.exists()) {
+        lifetimeData = docSnap.data();
+        console.log("Cloud Data Loaded:", lifetimeData);
+    } else {
+        console.log("New User: Creating Cloud Profile...");
+        saveUserData(); // Create empty profile
+    }
+    loadQuestions(); // Start App
+}
+
+async function saveUserData() {
+    if (!currentUser) return;
+    try {
+        await setDoc(doc(db, "users", currentUser.uid), lifetimeData);
+        console.log("Cloud Save Success");
+    } catch (e) {
+        console.error("Error saving document: ", e);
+    }
+}
+
+// --- 2. LOGOUT ---
+window.logout = function() {
+    if(confirm("Log out of cloud session?")) {
+        signOut(auth).then(() => {
+            window.location.href = 'login.html';
+        });
+    }
+}
+
+// --- 3. APP LOGIC (Standard) ---
 async function loadQuestions() {
     try {
         const [grammarRes, vocabRes] = await Promise.all([
@@ -24,70 +90,58 @@ async function loadQuestions() {
         ]);
         fullData.grammar = await grammarRes.json();
         fullData.vocabulary = await vocabRes.json();
-        
-        if (localStorage.getItem('germanPro_streak')) {
-            streak = parseInt(localStorage.getItem('germanPro_streak'));
-            updateStats();
-        }
         switchMode('grammar'); 
     } catch (error) { console.error(error); }
 }
 
-// --- 2. THE SMART ALGORITHM ---
-function switchMode(mode) {
+window.switchMode = function(mode) {
     currentMode = mode;
     const allQuestions = fullData[mode];
     
-    // A. Identify Weak Categories (< 50% accuracy)
+    // Smart Review Logic
     let weakCategories = [];
-    for (const [cat, stats] of Object.entries(lifetimeData.categoryStats)) {
-        if (stats.attempts > 0 && (stats.correct / stats.attempts) < 0.5) {
-            weakCategories.push(cat);
+    if (lifetimeData.categoryStats) {
+        for (const [cat, stats] of Object.entries(lifetimeData.categoryStats)) {
+            if (stats.attempts > 0 && (stats.correct / stats.attempts) < 0.5) {
+                weakCategories.push(cat);
+            }
         }
     }
 
-    // B. Priority Queue Logic
     let priorityQuestions = [];
     if (weakCategories.length > 0) {
         priorityQuestions = allQuestions.filter(q => weakCategories.includes(q.category));
         priorityQuestions = priorityQuestions.sort(() => 0.5 - Math.random()).slice(0, 4);
     }
 
-    // C. Fill with Random Questions
     const priorityIds = priorityQuestions.map(q => q.id);
     let remainingPool = allQuestions.filter(q => !priorityIds.includes(q.id));
     let needed = 10 - priorityQuestions.length;
     let randomFill = remainingPool.sort(() => 0.5 - Math.random()).slice(0, needed);
 
-    // D. Final Mix
     currentQuestions = [...priorityQuestions, ...randomFill].sort(() => 0.5 - Math.random());
 
-    // Reset Session
     currentIndex = 0;
     score = 0; 
+    streak = 0;
     sessionAnalytics = {}; 
     
-    // UI Updates
     document.querySelectorAll('.nav-item').forEach(btn => {
         btn.classList.remove('active');
         if(btn.getAttribute('onclick').includes(mode)) btn.classList.add('active');
     });
     
-    // Smart Header
     let titleText = `${mode.toUpperCase()} (Session: ${currentQuestions.length})`;
-    if (priorityQuestions.length > 0) {
-        titleText += " 🔥 Smart Review Active";
-    }
+    if (priorityQuestions.length > 0) titleText += " 🔥 Smart Review Active";
     document.getElementById('mode-title').innerText = titleText;
     
     updateStats();
     renderQuestion();
 }
 
-// --- 3. RENDER UI ---
 function renderQuestion() {
     if (currentIndex >= currentQuestions.length) {
-        saveLifetimeData();
+        saveUserData(); // SYNC TO CLOUD
         showAnalyticsReport(); 
         return;
     }
@@ -109,7 +163,6 @@ function renderQuestion() {
     });
 }
 
-// --- 4. CHECK ANSWER ---
 function checkAnswer(selected, correct, explanation, category) {
     const feedback = document.getElementById("feedback");
     const buttons = document.querySelectorAll("#options-container button");
@@ -120,7 +173,9 @@ function checkAnswer(selected, correct, explanation, category) {
     if (!sessionAnalytics[cat]) sessionAnalytics[cat] = { total: 0, errors: 0 };
     sessionAnalytics[cat].total++;
 
+    if (!lifetimeData.categoryStats) lifetimeData.categoryStats = {};
     if (!lifetimeData.categoryStats[cat]) lifetimeData.categoryStats[cat] = { attempts: 0, correct: 0 };
+    
     lifetimeData.categoryStats[cat].attempts++;
     lifetimeData.totalQuestions++;
 
@@ -130,7 +185,10 @@ function checkAnswer(selected, correct, explanation, category) {
         score += 10;
         streak++;
         lifetimeData.categoryStats[cat].correct++;
-        setTimeout(nextQuestion, 1000);
+        setTimeout(() => {
+            currentIndex++;
+            renderQuestion();
+        }, 1000);
     } else {
         feedback.className = "feedback error";
         feedback.innerText = `Wrong. ${explanation}`;
@@ -140,12 +198,11 @@ function checkAnswer(selected, correct, explanation, category) {
         document.getElementById("next-btn").style.display = "block";
     }
     
-    localStorage.setItem('germanPro_streak', streak);
     feedback.style.display = "block";
     updateStats();
 }
 
-function nextQuestion() {
+window.nextQuestion = function() {
     currentIndex++;
     renderQuestion();
 }
@@ -155,27 +212,17 @@ function updateStats() {
     document.getElementById("streak").innerText = streak;
 }
 
-// --- 5. SAVE DATA ---
-function saveLifetimeData() {
-    localStorage.setItem('germanPro_storage', JSON.stringify(lifetimeData));
-}
-
-// --- 6. REPORT CARD ---
 function showAnalyticsReport() {
     const container = document.querySelector(".container");
     document.getElementById("options-container").style.display = "none";
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-btn").style.display = "none";
-    
-    let headerText = "Performance Review";
-    if (score === 100) headerText = "🏆 Perfect Session!";
-    else if (score < 50) headerText = "⚠️ Needs Focus";
-    document.getElementById("question-text").innerText = headerText;
+    document.getElementById("question-text").innerText = "Performance Review";
 
     let reportHTML = `<div class="report-card">
         <h3>Session Score: ${score}</h3>
         <p style="text-align:center; color: #94a3b8; font-size: 0.9rem; margin-bottom: 20px;">
-            Total Solved: <b style="color:white">${lifetimeData.totalQuestions}</b>
+            Total Questions Solved: <b style="color:white">${lifetimeData.totalQuestions}</b>
         </p>`;
 
     const sortedCats = Object.keys(sessionAnalytics).sort((a,b) => {
@@ -213,5 +260,3 @@ function showAnalyticsReport() {
     reportContainer.innerHTML = reportHTML;
     container.appendChild(reportContainer);
 }
-
-loadQuestions();
