@@ -147,7 +147,14 @@ function renderQuestion() {
     }
 
     const q = currentQuestions[currentIndex];
-    document.getElementById("question-text").innerText = q.question;
+    
+    // --- NEW: Audio Button Logic ---
+    // We add a speaker icon that calls the 'speakText' function
+    const audioBtn = `<span onclick="speakText('${q.question.replace(/'/g, "\\'")}')" style="cursor:pointer; margin-left:10px; font-size:1.2rem;" title="Listen to pronunciation">🔊</span>`;
+    
+    document.getElementById("question-text").innerHTML = q.question + audioBtn;
+    // -------------------------------
+
     document.getElementById("feedback").style.display = "none";
     document.getElementById("next-btn").style.display = "none";
     
@@ -161,6 +168,27 @@ function renderQuestion() {
         btn.onclick = () => checkAnswer(opt, q.answer, q.explanation, q.category);
         container.appendChild(btn);
     });
+}
+
+// --- UPDATED SPEECH FUNCTION (v1.2.1) ---
+window.speakText = function(text) {
+    if ('speechSynthesis' in window) {
+        // Cancel any currently playing speech to avoid overlap
+        window.speechSynthesis.cancel();
+
+        // THE FIX: Regex to find underscores (____) and replace them with "..."
+        // This makes the voice pause slightly instead of saying "underscore"
+        const cleanText = text.replace(/_+/g, "..."); 
+
+        const utterance = new SpeechSynthesisUtterance(cleanText);
+        utterance.lang = 'de-DE'; // German Language
+        utterance.rate = 0.85;    // Slightly slower for better clarity
+        utterance.pitch = 1;
+
+        window.speechSynthesis.speak(utterance);
+    } else {
+        alert("Sorry, your browser doesn't support Text-to-Speech!");
+    }
 }
 
 function checkAnswer(selected, correct, explanation, category) {
