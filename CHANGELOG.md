@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0] - 2026-01-29 (The Voice Update)
+**Status:** Live on Production 🔊
+**Focus:** Accessibility & Multimodal Learning
+
+### Added
+- **Text-to-Speech (TTS) Integration:** Leveraged the native **Web Speech API** to provide real-time German pronunciation for all quiz questions.
+- **Smart Audio Sanitization:** Implemented a regex-based parser to silence "blank" underscores (`______`) during speech playback, ensuring natural sentence flow.
+- **CI/CD Pipeline:** Established automated deployment workflows linking **GitHub Main Branch** to **Netlify**, reducing deployment time by 90%.
+
+### Changed
+- **UX Enhancement:** Added interactive "Speaker" iconography to the question card interface.
+- **Deployment Strategy:** Migrated from manual drag-and-drop to continuous integration.
+
+---
+
 ## [1.1.0] - 2026-01-29 (The SaaS Update)
 **Status:** Live on Production ☁️
 **Focus:** User Retention & Data Persistence

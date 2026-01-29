@@ -1,5 +1,7 @@
 # 🇩🇪 GermanPro: Adaptive Learning Platform
 
+![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)
+![Status](https://img.shields.io/badge/status-Active_Development-success.svg)
 ![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)
 ![Status](https://img.shields.io/badge/status-SaaS_Live-success.svg)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
@@ -75,6 +77,10 @@ We measure success using the following metrics:
 2.  **Module Completion:** Drop-off rate analysis (Question 5 vs. Question 10).
 3.  **Error Hotspots:** Identifying questions with `<40%` pass rate for content review.
 4. **☁️ Cloud Sync (SaaS):** Seamlessly saves progress to the cloud. Start learning on your laptop and continue on your mobile device without missing a beat.
+5. **🔊 Audio Pronunciation:** Integrated 
+6. **Web Speech API** for instant text-to-speech feedback.
+    * *Why:* Enhances auditory retention without bloating the app with audio files.
+    * *UX:* Automatically pauses for "blanks" to simulate natural speech patterns.
 
 ---
 
@@ -102,11 +108,14 @@ We measure success using the following metrics:
 
 ## 🗺️ Strategic Roadmap (Future Scope)
 
-| Phase | Feature | Business Value |
-| :--- | :--- | :--- |
-| **v1.2** | **Visual Analytics** | Integrate `Chart.js` to visualize learning curves and increase user engagement time. |
-| **v1.3** | **Global Leaderboard** | Gamify the experience by comparing "Lifetime Scores" to drive competitive retention. |
-| **v2.0** | **Monetization API** | Architecture supports "Premium" content gating for potential SaaS revenue models. |
+## 🗺️ Strategic Roadmap
+
+| Phase | Feature | Status | Business Value |
+| :--- | :--- | :--- | :--- |
+| **v1.1** | **Cloud Sync** | ✅ Done | Enables cross-device retention & user accounts. |
+| **v1.2** | **AI Voice (TTS)** | ✅ Done | Increases accessibility & auditory learning. |
+| **v1.3** | **Visual Analytics** | 🚧 Next | Data visualization to drive user engagement. |
+| **v2.0** | **Global Leaderboard** | 📅 Planned | Social gamification for viral growth. |
 
 
 ### 📂 File Structure
