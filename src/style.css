@@ -236,18 +236,18 @@ button {
 
 /* 1. The Hamburger Button (Hidden on Desktop) */
 .mobile-menu-btn {
-    display: none; /* Default: Hidden */
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    z-index: 1001;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: none; 
+    position: fixed; /* Changed from absolute to fixed so it floats even if you scroll */
+    top: 20px;
+    left: 20px;
+    z-index: 9999; /* Super high to sit on top of everything */
+    background: #ff0055; /* Bright Pink (Temporary, just to see if it works) */
     color: white;
-    font-size: 1.5rem;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
-    backdrop-filter: blur(10px);
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border: 2px solid white;
     cursor: pointer;
 }
 

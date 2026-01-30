@@ -1,5 +1,5 @@
-const CACHE_NAME = "germanpro-v2-cache";
-const ASSETS = [
+// CHANGE THIS LINE AT THE TOP:
+const CACHE_NAME = "germanpro-v3-menu-update";const ASSETS = [
   "./",
   "./index.html",
   "./style.css",
