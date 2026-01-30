@@ -293,3 +293,63 @@ button {
     margin: 0 auto;
     padding: 100px 20px 20px 20px; /* Top padding clears the button */
 }
+
+/* --- SIDEBAR CONTENT FIX --- */
+
+/* 1. Force sidebar to organize items in a column */
+.sidebar {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important; /* Start from top */
+    align-items: flex-start !important; /* Align to left */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Allow scrolling if screen is short (landscape mobile) */
+    overflow-y: auto; 
+}
+
+/* 2. Space out the sections */
+.sidebar .logo {
+    margin-bottom: 20px;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.sidebar .user-profile {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    flex-shrink: 0;
+}
+
+/* 3. Ensure Navigation Buttons are visible */
+.sidebar nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between buttons */
+    flex-shrink: 0;
+}
+
+/* 4. Style the Buttons specifically */
+.sidebar nav button, 
+.nav-item {
+    display: block !important; /* Force visible */
+    width: 100%;
+    text-align: left;
+    padding: 12px 15px;
+    border-radius: 8px;
+    color: rgba(255,255,255,0.7);
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: all 0.2s ease;
+}
+
+/* 5. Highlight the Active Button */
+.sidebar nav button.active,
+.nav-item.active {
+    background: #0ea5e9 !important; /* Brand Blue */
+    color: white !important;
+    border-color: #0ea5e9;
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+}
