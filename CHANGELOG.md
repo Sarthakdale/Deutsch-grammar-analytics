@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1] - The Mastery Update 🎓
+**Feature Focus:** Adaptive Learning Algorithms
+
+* **Recursive Mistake Capture:** Implemented a smart bucket system that re-captures errors made *during* review sessions, preventing users from exiting until true mastery is shown.
+* **Dynamic Queue Filtering:** The review engine now automatically flushes correct answers from the stack, allowing users to drill down exclusively on their persistent weak points.
+* **Closed-Loop UX:** Designed a "Mastery Achieved" state that rewards users only when the mistake buffer is fully cleared.
+
 ## [1.4.0] - 2026-01-29 (The Design System Update)
 **Status:** Live on Production 🎨
 **Focus:** UI/UX Polish & Mobile Responsiveness

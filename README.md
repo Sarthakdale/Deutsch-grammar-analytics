@@ -87,6 +87,30 @@ We measure success using the following metrics:
     * **Mobile-First:** Fully responsive layout for recruiting on the go.
     * **Dark Mode:** Optimized high-contrast theme for long study sessions.
 
+8. ### 🧠 The Recursive Mastery Engine (v1.5.1)
+
+> *"We don't just show you what you got wrong. We make sure you never get it wrong again."*
+
+Standard learning apps treat mistakes as static data. **GermanPro Analytics** treats them as an active learning queue.
+
+I engineered a **Recursive Mastery Loop**—a self-optimizing algorithm that creates a "filtering funnel" for user mistakes. It guarantees that a user cannot "complete" a topic until they have demonstrated actual competence.
+
+#### ⚙️ How It Works ( The "Funnel" Logic )
+
+1.  **Capture Phase 📥**
+    * During a session, every incorrect answer is intercepted and silently pushed into a temporary `sessionMistakes` bucket.
+2.  **Targeted Remediation 🎯**
+    * Post-game, the user enters a **Review Mode** containing *only* the specific questions they failed.
+3.  **Recursive Filtering 🔄**
+    * *Here is the magic:* If a user gets a question wrong *again* during the review, it is re-queued for a **second review round**.
+    * Questions answered correctly are immediately discarded from the queue.
+4.  **The Result 🏆**
+    * This creates a shrinking loop: **10 Errors → 3 Errors → 1 Error → Mastery.**
+
+#### 📸 User Flow
+* **The "Grit" Check:** Users are presented with a choice: *Retry Remaining 3 Mistakes* or *Exit Session*.
+* **Success State:** A "Mastery Achieved" celebration triggers only when the recursive queue hits exactly `0`.
+
 ---
 
 ## 🔮 Future Monetization Strategy
