@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.0] - 2026-01-30 (The Mobile Native Update)
+**Status:** Live on Production 📱
+**Focus:** Progressive Web App (PWA) & Mobile UX
+
+### Added
+- **PWA Core:** Added `manifest.json` and `sw.js` to enable "Add to Home Screen" functionality and offline caching.
+- **Mobile Navigation:** Implemented a `hamburger-menu` system that toggles the sidebar visibility on screens narrower than 768px.
+- **Touch Optimization:** Increased touch targets for buttons and navigation links to meet mobile accessibility standards.
+
+### Fixed
+- **Cache Invalidation:** Updated Service Worker versioning (`germanpro-v3`) to force immediate client-side updates when new code is deployed.
+- **Sidebar Layout:** Resolved CSS flexbox issues where the sidebar would disappear on mobile viewports.
+
 ## [1.5.1] - The Mastery Update 🎓
 **Feature Focus:** Adaptive Learning Algorithms
 
