@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 > **Current Version:** `v2.0.0` (See [CHANGELOG.md](./CHANGELOG.md) for history)
-> **Live Demo:** [sarthak-german-analytics.netlify.app](https://sarthak-german-analytics.netlify.app/)
+> **Live Demo:** [sarthak-german-analytics.netlify.app](https://deutsch-grammar-analytics1.vercel.app/)
 
 ---
 
