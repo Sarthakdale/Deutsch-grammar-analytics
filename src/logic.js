@@ -438,21 +438,29 @@ window.startReviewSession = function() {
     renderQuestion();
 }
 
-// --- MOBILE MENU LOGIC ---
+// --- ROBUST MOBILE MENU LOGIC ---
 document.addEventListener("DOMContentLoaded", () => {
-    const menuBtn = document.getElementById("mobile-menu-btn");
-    const sidebar = document.getElementById("sidebar");
+    // Try to find the button by ID first, then by Class
+    const menuBtn = document.getElementById("mobile-menu-btn") || document.querySelector(".mobile-menu-btn");
+    const sidebar = document.querySelector(".sidebar"); // Uses class to be safe
 
-    // 1. Toggle Menu Open/Close
-    menuBtn.addEventListener("click", (e) => {
-        e.stopPropagation(); // Prevent click from bubbling
-        sidebar.classList.toggle("active");
-    });
+    if (menuBtn && sidebar) {
+        // 1. Toggle Menu Open/Close
+        menuBtn.addEventListener("click", (e) => {
+            e.stopPropagation(); // Stop click from bubbling
+            console.log("🍔 Menu Button Clicked!"); // Debug message
+            sidebar.classList.toggle("active");
+        });
 
-    // 2. Close Menu when clicking ANYWHERE else
-    document.addEventListener("click", (e) => {
-        if (!sidebar.contains(e.target) && !menuBtn.contains(e.target)) {
-            sidebar.classList.remove("active");
-        }
-    });
+        // 2. Close Menu when clicking ANYWHERE else
+        document.addEventListener("click", (e) => {
+            if (!sidebar.contains(e.target) && !menuBtn.contains(e.target)) {
+                sidebar.classList.remove("active");
+            }
+        });
+        
+        console.log("✅ Mobile Menu Logic Loaded Successfully");
+    } else {
+        console.error("❌ Critical Error: Menu Button or Sidebar not found in HTML!");
+    }
 });
