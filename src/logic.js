@@ -437,3 +437,22 @@ window.startReviewSession = function() {
     // 3. Start the Game
     renderQuestion();
 }
+
+// --- MOBILE MENU LOGIC ---
+document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.getElementById("mobile-menu-btn");
+    const sidebar = document.getElementById("sidebar");
+
+    // 1. Toggle Menu Open/Close
+    menuBtn.addEventListener("click", (e) => {
+        e.stopPropagation(); // Prevent click from bubbling
+        sidebar.classList.toggle("active");
+    });
+
+    // 2. Close Menu when clicking ANYWHERE else
+    document.addEventListener("click", (e) => {
+        if (!sidebar.contains(e.target) && !menuBtn.contains(e.target)) {
+            sidebar.classList.remove("active");
+        }
+    });
+});

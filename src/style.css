@@ -231,3 +231,53 @@ button {
     
     h2 { font-size: 1.4rem; }
 }
+
+/* --- MOBILE NAVIGATION SYSTEM --- */
+
+/* 1. The Hamburger Button (Hidden on Desktop) */
+.mobile-menu-btn {
+    display: none; /* Default: Hidden */
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1001;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+
+/* 2. Mobile View Logic (Screens smaller than 768px) */
+@media (max-width: 768px) {
+    .app-wrapper {
+        grid-template-columns: 1fr; /* Stack layout */
+    }
+
+    .mobile-menu-btn {
+        display: block; /* Show button on mobile */
+    }
+
+    /* Hide Sidebar Off-Screen */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 250px;
+        background: rgba(15, 23, 42, 0.95); /* Darker background */
+        backdrop-filter: blur(20px);
+        transform: translateX(-100%); /* Slide it away */
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000;
+        box-shadow: 10px 0 30px rgba(0,0,0,0.5);
+    }
+
+    /* The Class that brings it back */
+    .sidebar.active {
+        transform: translateX(0); /* Slide it in */
+    }
+}
