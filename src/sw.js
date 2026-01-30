@@ -1,4 +1,4 @@
-const CACHE_NAME = "germanpro-v6-instant"; // Bump this version manually when you push to production
+const CACHE_NAME = "germanpro-v8-network-first"; 
 const ASSETS = [
   "./",
   "./index.html",
@@ -9,9 +9,9 @@ const ASSETS = [
   "./assets/icon-512.png"
 ];
 
-// 1. Install Event: Force the new SW to take over IMMEDIATELY
+// 1. Install: Cache core files immediately
 self.addEventListener("install", (e) => {
-  self.skipWaiting(); // <--- THIS STOPS THE WAITING
+  self.skipWaiting(); // Force new SW to take over immediately
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
       return cache.addAll(ASSETS);
@@ -19,28 +19,39 @@ self.addEventListener("install", (e) => {
   );
 });
 
-// 2. Activate Event: Clean up old caches & take control of open tabs
+// 2. Activate: Delete old caches instantly
 self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
         keys.map((key) => {
           if (key !== CACHE_NAME) {
-            return caches.delete(key); // Delete old versions automatically
+            return caches.delete(key); 
           }
         })
       );
     }).then(() => {
-      return self.clients.claim(); // <--- TELLS THE PAGE "I AM IN CHARGE NOW"
+      return self.clients.claim(); // Take control of all pages immediately
     })
   );
 });
 
-// 3. Fetch Event: Serve from Cache, but fall back to Network
+// 3. THE MAGIC FIX: "Network First" Strategy
+// Try to get fresh code from the internet. If that fails (offline), use the cache.
 self.addEventListener("fetch", (e) => {
   e.respondWith(
-    caches.match(e.request).then((response) => {
-      return response || fetch(e.request);
-    })
+    fetch(e.request)
+      .then((response) => {
+        // If we got a valid response from the network, update the cache!
+        const responseClone = response.clone();
+        caches.open(CACHE_NAME).then((cache) => {
+          cache.put(e.request, responseClone);
+        });
+        return response;
+      })
+      .catch(() => {
+        // If network fails (offline), return the cached version
+        return caches.match(e.request);
+      })
   );
 });

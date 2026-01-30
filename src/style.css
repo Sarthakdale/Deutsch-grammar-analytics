@@ -353,3 +353,43 @@ button {
     border-color: #0ea5e9;
     box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
 }
+
+/* --- SIDEBAR LAYOUT SAFETY --- */
+
+/* 1. Force the Container to Stack Vertical */
+.sidebar nav {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    gap: 15px !important; /* Space between buttons */
+    padding-top: 20px;
+    flex-grow: 1; 
+}
+
+/* 2. FORCE BUTTON VISIBILITY (The Critical Fix) */
+.sidebar nav button, 
+.nav-item {
+    display: flex !important; /* Use flex to align icon + text */
+    align-items: center;
+    width: 100%;
+    height: auto !important;
+    min-height: 50px; /* Minimum clickable area */
+    padding: 12px 15px !important;
+    
+    /* Colors & Visibility */
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: rgba(255, 255, 255, 0.08) !important; /* Subtle box background */
+    color: #ffffff !important; /* Pure white text */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    
+    /* Prevent them from shrinking to 0 */
+    flex-shrink: 0 !important; 
+}
+
+/* 3. Add a Scrollbar if screen is too short */
+.sidebar {
+    overflow-y: auto !important; 
+    padding-bottom: 50px; /* Space at bottom for scrolling */
+}
