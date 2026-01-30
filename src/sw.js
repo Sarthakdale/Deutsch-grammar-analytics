@@ -1,5 +1,6 @@
-// CHANGE THIS LINE AT THE TOP:
-const CACHE_NAME = "germanpro-v3-menu-update";const ASSETS = [
+// Change "v3" to "v4" here:
+const CACHE_NAME = "germanpro-v4-drawer-update";
+const ASSETS = [
   "./",
   "./index.html",
   "./style.css",

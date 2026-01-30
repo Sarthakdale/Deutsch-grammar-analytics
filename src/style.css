@@ -232,52 +232,64 @@ button {
     h2 { font-size: 1.4rem; }
 }
 
-/* --- MOBILE NAVIGATION SYSTEM --- */
+/* --- UNIFIED NAVIGATION (Desktop & Mobile) --- */
 
-/* 1. The Hamburger Button (Hidden on Desktop) */
+/* 1. The Menu Button - Always Visible */
 .mobile-menu-btn {
-    display: none; 
-    position: fixed; /* Changed from absolute to fixed so it floats even if you scroll */
+    display: block !important; /* FORCE SHOW on all screens */
+    position: fixed;
     top: 20px;
     left: 20px;
-    z-index: 9999; /* Super high to sit on top of everything */
-    background: #ff0055; /* Bright Pink (Temporary, just to see if it works) */
+    z-index: 1001;
+    background: #0ea5e9; /* Brand Blue */
     color: white;
-    font-size: 2rem;
-    padding: 10px;
-    border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-    border: 2px solid white;
+    font-size: 1.5rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
-/* 2. Mobile View Logic (Screens smaller than 768px) */
-@media (max-width: 768px) {
-    .app-wrapper {
-        grid-template-columns: 1fr; /* Stack layout */
-    }
+.mobile-menu-btn:hover {
+    transform: scale(1.05);
+}
 
-    .mobile-menu-btn {
-        display: block; /* Show button on mobile */
-    }
+/* 2. The Sidebar - Hidden by Default (Drawer Mode) */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 280px;
+    background: rgba(15, 23, 42, 0.98); /* Deep Dark Blue */
+    backdrop-filter: blur(20px);
+    transform: translateX(-100%); /* Hidden off-screen */
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+    border-right: 1px solid rgba(255,255,255,0.1);
+    padding-top: 80px; /* Space for the button */
+    box-shadow: 10px 0 30px rgba(0,0,0,0.5);
+}
 
-    /* Hide Sidebar Off-Screen */
-    .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 250px;
-        background: rgba(15, 23, 42, 0.95); /* Darker background */
-        backdrop-filter: blur(20px);
-        transform: translateX(-100%); /* Slide it away */
-        transition: transform 0.3s ease-in-out;
-        z-index: 1000;
-        box-shadow: 10px 0 30px rgba(0,0,0,0.5);
-    }
+/* 3. The "Open" State */
+.sidebar.active {
+    transform: translateX(0); /* Slide in */
+}
 
-    /* The Class that brings it back */
-    .sidebar.active {
-        transform: translateX(0); /* Slide it in */
-    }
+/* 4. Fix Main Layout - Full Width */
+/* This overrides the grid layout so content fills the screen */
+.app-wrapper {
+    display: block; 
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px; /* Top padding clears the button */
 }
